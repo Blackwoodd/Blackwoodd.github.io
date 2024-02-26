@@ -18,6 +18,7 @@ body {
     padding: 100px;
     font-size: 24px;
     width: 50%;
+    display: flex;
     flex-wrap: nowrap;
 }
 
