@@ -37,3 +37,8 @@ body {
 .titre2 {
     padding: 100px;
 }
+
+.image {
+    width: 300px;
+    height: auto;
+}
