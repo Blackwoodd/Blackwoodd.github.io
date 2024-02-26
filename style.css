@@ -1,12 +1,16 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+}
+
 .email {
     color: blue;
 }
 
-h1 {
+.titre {
+    padding: 100px;
+    background-image: url('https://www.pinterest.fr/pin/188799409373031529/');
     font-size: 42px;
-}
-
-body {
-    background-color: black;
-    color: white;
 }
