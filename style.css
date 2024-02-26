@@ -27,6 +27,7 @@ body {
     display: flex;
     flex-wrap: nowrap;
     align-items: center; /* Aligne les éléments sur l'axe vertical */
+    justify-content: flex-start
 }
 
 .site {
