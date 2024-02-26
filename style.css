@@ -26,6 +26,8 @@ body {
     width: 50%;
     display: flex;
     flex-wrap: nowrap;
+    align-items: center; /* Aligne les éléments sur l'axe vertical */
+    justify-content: space-between; /* Répartit l'espace entre les éléments */
 }
 
 .site {
