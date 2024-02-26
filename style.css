@@ -37,16 +37,20 @@ body {
     justify-content: space-around;
 }
 
+.application p {
+    max-width: 1000px; /* Limiter la largeur du paragraphe */
+}
+
 .contact {
     padding-top: 50;
-    padding-bottom: 200;
+    padding-bottom: 0;
     padding-left: 100px;
     padding-right: 100px;
 }
 
 .plus {
     padding-top: 50;
-    padding-bottom: 0;
+    padding-bottom: 100;
     padding-left: 100px;
     padding-right: 100px;
 }
