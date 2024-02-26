@@ -17,11 +17,14 @@ body {
 .application {
     padding: 100px;
     font-size: 24px;
+    width: 50%;
+    flex-wrap: nowrap;
 }
 
 .site {
     padding: 100px;
     font-size: 24px;
+    width: 50%;
 }
 
 .maquette {
