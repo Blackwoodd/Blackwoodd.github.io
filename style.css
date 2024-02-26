@@ -37,6 +37,10 @@ body {
     justify-content: space-between
 }
 
+.application p {
+    max-width: 300px; /* Limiter la largeur du paragraphe */
+}
+
 .contact {
     padding-top: 0;
     padding-bottom: 0;
