@@ -16,14 +16,17 @@ body {
 
 .application {
     padding: 100px;
+    font-size: 24px;
 }
 
 .site {
     padding: 100px;
+    font-size: 24px;
 }
 
 .maquette {
     padding: 100px;
+    font-size: 24px;
 }
 
 .contact {
@@ -36,6 +39,7 @@ body {
 
 .titre2 {
     padding: 100px;
+    font-size: 36px;
 }
 
 .image {
