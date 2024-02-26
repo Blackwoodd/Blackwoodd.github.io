@@ -38,7 +38,7 @@ body {
 }
 
 .application p {
-    max-width: 1000px; /* Limiter la largeur du paragraphe */
+    max-width: 900px; /* Limiter la largeur du paragraphe */
 }
 
 .contact {
