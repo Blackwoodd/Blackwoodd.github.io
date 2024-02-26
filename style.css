@@ -10,7 +10,7 @@ body {
 }
 
 .titre {
-    padding-top: 30; /* Supprimer l'espace supplémentaire en haut */
+    padding-top: 50; /* Supprimer l'espace supplémentaire en haut */
     padding-bottom: 0; /* Supprimer l'espace supplémentaire en bas */
     padding-left: 100px; /* Garder le padding à gauche */
     padding-right: 100px; /* Garder le padding à droite */
@@ -18,7 +18,7 @@ body {
 }
 
 .titre_application {
-    padding-top: 30;
+    padding-top: 0;
     padding-bottom: 0;
     padding-left: 100px;
     padding-right: 100px;
@@ -26,7 +26,7 @@ body {
 }
 
 .application {
-    padding-top: 30;
+    padding-top: 50;
     padding-bottom: 0;
     padding-left: 100px;
     padding-right: 100px;
@@ -38,25 +38,25 @@ body {
 }
 
 .application p {
-    max-width: 300px; /* Limiter la largeur du paragraphe */
+    max-width: 500px; /* Limiter la largeur du paragraphe */
 }
 
 .contact {
-    padding-top: 30;
+    padding-top: 50;
     padding-bottom: 0;
     padding-left: 100px;
     padding-right: 100px;
 }
 
 .plus {
-    padding-top: 30;
+    padding-top: 50;
     padding-bottom: 0;
     padding-left: 100px;
     padding-right: 100px;
 }
 
 .titre2 {
-    padding-top: 30;
+    padding-top: 50;
     padding-bottom: 0;
     padding-left: 100px;
     padding-right: 100px;
