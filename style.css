@@ -20,22 +20,15 @@ body {
 }
 
 .application {
-    padding: 100px;
+    padding-top: 0; /* Supprimer l'espace supplémentaire en haut */
+    padding-bottom: 0; /* Supprimer l'espace supplémentaire en bas */
+    padding-left: 100px; /* Garder le padding à gauche */
+    padding-right: 100px; /* Garder le padding à droite */
     font-size: 24px;
     display: flex;
     flex-wrap: nowrap;
     align-items: center; /* Aligne les éléments sur l'axe vertical */
     justify-content: flex-end
-}
-
-.site {
-    padding: 100px;
-    font-size: 24px;
-}
-
-.maquette {
-    padding: 100px;
-    font-size: 24px;
 }
 
 .contact {
