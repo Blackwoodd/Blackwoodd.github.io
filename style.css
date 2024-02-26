@@ -10,12 +10,18 @@ body {
 }
 
 .titre {
-    padding: 100px;
+    padding-top: 0; /* Supprimer l'espace supplémentaire en haut */
+    padding-bottom: 0; /* Supprimer l'espace supplémentaire en bas */
+    padding-left: 100px; /* Garder le padding à gauche */
+    padding-right: 100px; /* Garder le padding à droite */
     font-size: 42px;
 }
 
 .titre_application {
-    padding: 100px;
+    padding-top: 0; /* Supprimer l'espace supplémentaire en haut */
+    padding-bottom: 0; /* Supprimer l'espace supplémentaire en bas */
+    padding-left: 100px; /* Garder le padding à gauche */
+    padding-right: 100px; /* Garder le padding à droite */
     font-size: 24px;
 }
 
@@ -32,15 +38,24 @@ body {
 }
 
 .contact {
-    padding: 100px;
+    padding-top: 0; /* Supprimer l'espace supplémentaire en haut */
+    padding-bottom: 0; /* Supprimer l'espace supplémentaire en bas */
+    padding-left: 100px; /* Garder le padding à gauche */
+    padding-right: 100px; /* Garder le padding à droite */
 }
 
 .plus {
-    padding: 100px;
+    padding-top: 0; /* Supprimer l'espace supplémentaire en haut */
+    padding-bottom: 0; /* Supprimer l'espace supplémentaire en bas */
+    padding-left: 100px; /* Garder le padding à gauche */
+    padding-right: 100px; /* Garder le padding à droite */
 }
 
 .titre2 {
-    padding: 100px;
+    padding-top: 0; /* Supprimer l'espace supplémentaire en haut */
+    padding-bottom: 0; /* Supprimer l'espace supplémentaire en bas */
+    padding-left: 100px; /* Garder le padding à gauche */
+    padding-right: 100px; /* Garder le padding à droite */
     font-size: 36px;
 }
 
