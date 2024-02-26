@@ -34,7 +34,7 @@ body {
     display: flex;
     flex-wrap: nowrap;
     align-items: center; /* Aligne les éléments sur l'axe vertical */
-    justify-content: flex-end
+    justify-content: space-between
 }
 
 .contact {
@@ -63,4 +63,5 @@ body {
     width: 450px;
     height: auto;
     margin-left: auto;
+    border-radius: 10px;
 }
