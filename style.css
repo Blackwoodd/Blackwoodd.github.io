@@ -77,14 +77,23 @@ body {
     }
 }
 
-.terminal pre {
+.terminal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* Hauteur du terminal */
+  }
+  
+  .animated-terminal {
     font-family: monospace;
     white-space: pre-wrap;
     margin: 0;
-    padding: 10px;
+    padding: 20px;
     background-color: black;
     color: lime;
     animation: typing 10s steps(60, end); /* Animation de saisie */
+    font-size: 24px; /* Taille de police plus grande */
   }
   
   @keyframes typing {
@@ -95,4 +104,5 @@ body {
       width: 100%; /* Terminez avec une largeur de 100% */
     }
   }
+  
   
