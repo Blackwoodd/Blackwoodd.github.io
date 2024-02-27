@@ -79,10 +79,9 @@ body {
 
 .terminal {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 400px; /* Hauteur du terminal */
+    height: 100vh; /* Hauteur de l'écran */
+    overflow: hidden; /* Masquer le contenu en dehors de la zone visible */
+    position: relative;
   }
   
   .animated-terminal {
@@ -92,8 +91,12 @@ body {
     padding: 20px;
     background-color: black;
     color: lime;
-    animation: typing 10s steps(60, end); /* Animation de saisie */
     font-size: 24px; /* Taille de police plus grande */
+    animation: typing 10s steps(60, end); /* Animation de saisie */
+  }
+  
+  .content {
+    height: 200vh; /* Hauteur du contenu après le terminal */
   }
   
   @keyframes typing {
@@ -104,5 +107,14 @@ body {
       width: 100%; /* Terminez avec une largeur de 100% */
     }
   }
+  
+  .zoom-effect {
+    transition: transform 1s; /* Transition pour l'effet de zoom */
+  }
+  
+  .zoom-effect.zoomed {
+    transform: scale(2); /* Zoom de 2x */
+  }
+  
   
   
