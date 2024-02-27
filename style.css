@@ -22,9 +22,20 @@ body {
     transition: opacity 1s, transform 1s;
   }
   
-  .animation-trigger.active .titre_application {
-    opacity: 1; /* Faites apparaître le titre avec une opacité de 1 */
-    transform: translateY(0); /* Pas de décalage, remontez */
+  .animation-trigger{
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
   }
 
 @media screen and (min-width: 1200px) {
