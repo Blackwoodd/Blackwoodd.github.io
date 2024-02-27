@@ -1,17 +1,16 @@
-// Détection du défilement de la page
-window.addEventListener("scroll", function() {
-    var terminal = document.querySelector(".terminal");
-    var content = document.querySelector(".content");
-    var scrollPosition = window.scrollY;
+document.addEventListener("DOMContentLoaded", function() {
+    var animationTrigger = document.querySelector(".animation-trigger");
+    var titreApplication = document.querySelector(".titre_application");
+    var animationTriggerPosition = animationTrigger.offsetTop;
+    var windowHeight = window.innerHeight;
   
-    // Si la position de défilement atteint la fin du terminal
-    if (scrollPosition >= terminal.offsetHeight) {
-      // Ajouter la classe pour activer l'effet de zoom
-      terminal.classList.add("zoom-effect", "zoomed");
-      // Supprimer la classe après un court délai pour permettre l'effet de zoom
-      setTimeout(function() {
-        terminal.classList.remove("zoom-effect");
-      }, 1000);
+    function checkAnimation() {
+      var windowTop = window.scrollY;
+      if (windowTop + windowHeight > animationTriggerPosition) {
+        animationTrigger.classList.add("active");
+      }
     }
-  });
   
+    checkAnimation(); // Vérifie l'animation lors du chargement initial
+    window.addEventListener("scroll", checkAnimation); // Vérifie l'animation lors du défilement
+  });
