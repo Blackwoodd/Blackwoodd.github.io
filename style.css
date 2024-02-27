@@ -5,13 +5,15 @@ body {
     margin: 0;
 }
 
-/* .email {
-    color: blue;
-} */
-
 .titre {
     padding: 100px;
     font-size: 42px;
+}
+
+@media screen and (min-width: 1200px) {
+    .titre {
+        font-size: 52px;
+    }
 }
 
 .titre_application {
@@ -45,7 +47,15 @@ body {
 }
 
 .contact {
+    font-size: 24px;
     padding: 100px;
+    text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+    .contact {
+        font-size: 34px;
+    }
 }
 
 .plus {
@@ -64,7 +74,7 @@ body {
     border-radius: 10px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
     .image_app {
         width: 700px;
     }
