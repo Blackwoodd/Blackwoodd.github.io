@@ -19,11 +19,12 @@ body {
 .titre_application {
     padding: 100px;
     font-size: 24px;
+    text-align: center;
 }
 
 @media screen and (min-width: 1200px) {
-    .h2 {
-        font-size: 34px;
+    .titre_application {
+        font-size: 40px;
     }
 }
 
@@ -38,7 +39,7 @@ body {
 
 @media screen and (min-width: 1200px) {
     .application {
-        font-size: 34px;
+        font-size: 40px;
     }
 }
 
