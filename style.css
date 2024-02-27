@@ -10,26 +10,17 @@ body {
 } */
 
 .titre {
-    padding-top: 50; /* Supprimer l'espace supplémentaire en haut */
-    padding-bottom: 0; /* Supprimer l'espace supplémentaire en bas */
-    padding-left: 100px; /* Garder le padding à gauche */
-    padding-right: 100px; /* Garder le padding à droite */
+    padding: 100px;
     font-size: 42px;
 }
 
 .titre_application {
-    padding-top: 150;
-    padding-bottom: 0;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 100px;
     font-size: 24px;
 }
 
 .application {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 100px;
     font-size: 24px;
     display: flex;
     flex-wrap: nowrap;
@@ -42,24 +33,15 @@ body {
 }
 
 .contact {
-    padding-top: 50;
-    padding-bottom: 0;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 100px;
 }
 
 .plus {
-    padding-top: 50;
-    padding-bottom: 100;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 100px;
 }
 
 .titre2 {
-    padding-top: 50;
-    padding-bottom: 0;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 100px;
     font-size: 36px;
 }
 
@@ -68,4 +50,10 @@ body {
     height: auto;
     margin-left: auto;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    .image_app {
+        width: 700px;
+    }
 }
