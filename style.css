@@ -18,7 +18,7 @@ body {
 }
 
 .titre_application {
-    padding-top: 0;
+    padding-top: 150;
     padding-bottom: 0;
     padding-left: 100px;
     padding-right: 100px;
@@ -26,7 +26,7 @@ body {
 }
 
 .application {
-    padding-top: 50;
+    padding-top: 0;
     padding-bottom: 0;
     padding-left: 100px;
     padding-right: 100px;
@@ -38,7 +38,7 @@ body {
 }
 
 .application p {
-    max-width: 900px; /* Limiter la largeur du paragraphe */
+    max-width: 700;
 }
 
 .contact {
