@@ -19,6 +19,12 @@ body {
     font-size: 24px;
 }
 
+@media screen and (min-width: 1200px) {
+    .h2 {
+        font-size: 34px;
+    }
+}
+
 .application {
     padding: 100px;
     font-size: 24px;
@@ -26,6 +32,12 @@ body {
     flex-wrap: nowrap;
     align-items: center; /* Aligne les éléments sur l'axe vertical */
     justify-content: space-around;
+}
+
+@media screen and (min-width: 1200px) {
+    .application {
+        font-size: 34px;
+    }
 }
 
 .application p {
