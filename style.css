@@ -69,7 +69,7 @@ body {
   position: relative;
   width: 300px; /* Largeur du cadre de téléphone */
   height: 600px; /* Hauteur du cadre de téléphone */
-  background: gray;
+  background: black;
   border-radius: 30px; /* Bordures arrondies pour simuler la forme d'un téléphone */
   overflow: hidden; /* Pour cacher le contenu en dehors du cadre de téléphone */
 }
@@ -85,19 +85,19 @@ body {
   0% {
     transform: translateX(0);
   }
-  20% {
+  16.666% {
     transform: translateX(0);
   }
   33.333% {
     transform: translateX(-100%);
   }
-  53.333% {
+  50% {
     transform: translateX(-100%);
   }
   66.666% {
     transform: translateX(-200%);
   }
-  86.666% {
+  83.333% {
     transform: translateX(-200%);
   }
   100% {
@@ -139,5 +139,6 @@ body {
 .dot-active {
   background-color: #ff5733; /* Couleur du point actif */
 }
+
 
 
