@@ -12,7 +12,7 @@ body {
 
 .block {
     padding: 100px;
-    font-size: 40px;
+    font-size: 34px;
     display: flex;
     align-items: center; /* Aligne les éléments sur l'axe vertical */
     justify-content: space-around;
@@ -46,7 +46,7 @@ body {
 }
 
 .image_app {
-    width: 700px;
+    width: 600px;
     height: auto;
     margin-left: auto;
     border-radius: 10px;
@@ -58,5 +58,5 @@ body {
     border-radius: 0px 50px 50px 0px;
     position: fixed;
     bottom: 0;
-    background: red;
+    background: purple;
 }
