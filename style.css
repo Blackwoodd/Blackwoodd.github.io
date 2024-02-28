@@ -78,7 +78,22 @@ body {
     width: 300%; /* Largeur égale à trois fois la largeur d'une page */
     height: 100%;
     display: flex;
-    transition: transform 1s ease; /* Transition pour l'animation de changement de page */
+    animation: scrollAnimation 15s linear infinite; /* Animation de défilement automatique */
+  }
+  
+  @keyframes scrollAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    33.333% {
+      transform: translateX(-100%);
+    }
+    66.666% {
+      transform: translateX(-200%);
+    }
+    100% {
+      transform: translateX(0);
+    }
   }
   
   .page {
@@ -115,6 +130,7 @@ body {
   .dot-active {
     background-color: #ff5733; /* Couleur du point actif */
   }
+  
   
   
   
