@@ -76,10 +76,7 @@ body {
 
 .deco_phone {
   position: absolute;
-  top: 5px; /* Ajustez la position verticale */
-  left: 5px; /* Ajustez la position horizontale */
-  width: calc(100% - 10px); /* Largeur du trait */
-  height: calc(100% - 10px); /* Hauteur du trait */
-  border: 5px solid black; /* Épaisseur et couleur du trait */
-  border-radius: 20px; /* Bord arrondi */
+  width: calc(200px); /* Largeur du trait */
+  transform: translateX(35px) translateY(200px);
+  border: 20px solid black; /* Épaisseur et couleur du trait */
 }
