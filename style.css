@@ -69,7 +69,7 @@ body {
     position: relative;
     width: 300px; /* Largeur du cadre de téléphone */
     height: 600px; /* Hauteur du cadre de téléphone */
-    background: black;
+    background: gray;
     border-radius: 30px; /* Bordures arrondies pour simuler la forme d'un téléphone */
     overflow: hidden; /* Pour cacher le contenu en dehors du cadre de téléphone */
   }
