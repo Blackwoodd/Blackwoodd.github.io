@@ -40,7 +40,8 @@ body {
     flex-wrap: nowrap;
     align-items: center; /* Aligne les éléments sur l'axe vertical */
     justify-content: space-around;
-    transform: translateY(20px);
+    opacity: 0;
+    transform: scale(0.5); /* Commencez avec une échelle réduite */
     transition: opacity 1s, transform 1s;
 }
 
@@ -51,7 +52,7 @@ body {
 
 .animation-trigger.active .image_app, .animation-trigger.active {
     opacity: 1;
-    transform: translateY(0);
+    transform: scale(1);
 }
 
 @media screen and (min-width: 1200px) {
@@ -86,6 +87,9 @@ body {
     height: auto;
     margin-left: auto;
     border-radius: 10px;
+    opacity: 0;
+    transform: scale(0.5); /* Commencez avec une échelle réduite */
+    transition: opacity 1s, transform 1s;
 }
 
 @media screen and (min-width: 1200px) {
