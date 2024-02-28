@@ -66,69 +66,70 @@ body {
 
 
 .phone-frame {
-    position: relative;
-    width: 300px; /* Largeur du cadre de téléphone */
-    height: 600px; /* Hauteur du cadre de téléphone */
-    background: black;
-    border-radius: 30px; /* Bordures arrondies pour simuler la forme d'un téléphone */
-    overflow: hidden; /* Pour cacher le contenu en dehors du cadre de téléphone */
+  position: relative;
+  width: 300px; /* Largeur du cadre de téléphone */
+  height: 600px; /* Hauteur du cadre de téléphone */
+  background: gray;
+  border-radius: 30px; /* Bordures arrondies pour simuler la forme d'un téléphone */
+  overflow: hidden; /* Pour cacher le contenu en dehors du cadre de téléphone */
+}
+
+.screen {
+  width: 300%; /* Largeur égale à trois fois la largeur d'une page */
+  height: 100%;
+  display: flex;
+  animation: scrollAnimation 15s linear infinite; /* Animation de défilement automatique */
+}
+
+@keyframes scrollAnimation {
+  0% {
+    transform: translateX(0);
   }
-  
-  .screen {
-    width: 300%; /* Largeur égale à trois fois la largeur d'une page */
-    height: 100%;
-    display: flex;
-    animation: scrollAnimation 15s linear infinite; /* Animation de défilement automatique */
+  25% {
+    transform: translateX(0);
   }
-  
-  @keyframes scrollAnimation {
-    0%, 100% {
-      transform: translateX(0);
-    }
-    33.333% {
-      transform: translateX(-100%);
-    }
-    66.666% {
-      transform: translateX(-200%);
-    }
+  50% {
+    transform: translateX(-100%);
   }
-  
-  .page {
-    width: 100%;
-    height: 100%;
-    flex: 0 0 33.333%; /* Utilisation de flex pour répartir les pages sur l'écran */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    color: white;
+  75% {
+    transform: translateX(-100%);
   }
-  
-  .content img {
-    width: 150px; /* Ajustez la taille de votre logo */
-    height: auto;
+  100% {
+    transform: translateX(-200%);
   }
-  
-  .scroll-indicator {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px; /* Espace supplémentaire entre le contenu et les points */
-  }
-  
-  .dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    margin: 0 5px;
-    background-color: #777; /* Couleur par défaut des points */
-  }
-  
-  .dot-active {
-    background-color: #ff5733; /* Couleur du point actif */
-  }
-  
-  
-  
-  
-  
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+  flex: 0 0 33.333%; /* Utilisation de flex pour répartir les pages sur l'écran */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+}
+
+.content img {
+  width: 150px; /* Ajustez la taille de votre logo */
+  height: auto;
+}
+
+.scroll-indicator {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Espace supplémentaire entre le contenu et les points */
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 5px;
+  background-color: #777; /* Couleur par défaut des points */
+}
+
+.dot-active {
+  background-color: #ff5733; /* Couleur du point actif */
+}
