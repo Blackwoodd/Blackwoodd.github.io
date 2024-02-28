@@ -40,6 +40,7 @@ function changePage() {
     currentPage = 0;
   }
   const screenWidth = document.querySelector('.phone-frame').offsetWidth;
+  screen.style.transition = 'transform 1s ease'; // Ajout de la transition pour l'animation de changement de page
   screen.style.transform = `translateX(-${currentPage * screenWidth}px)`;
 }
 
