@@ -16,24 +16,7 @@ body {
     }
 }
 
-@keyframes slidein {
-    from {
-        margin-left: 100%;
-        width: 300%;
-    }
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .titre_application {
-        font-size: 40px;
-    }
-}
-
-.application {
+.content {
     padding: 100px;
     font-size: 24px;
     display: flex;
@@ -50,18 +33,18 @@ body {
     transition: opacity 1s, transform 1s;
 }
 
-.animation-trigger.active .image_app, .animation-trigger.active {
+.animation-trigger.active .image_app {
     opacity: 1;
     transform: scale(1);
 }
 
 @media screen and (min-width: 1200px) {
-    .application {
+    .content {
         font-size: 40px;
     }
 }
 
-.application p {
+.content p {
     max-width: 700;
 }
 
@@ -69,6 +52,14 @@ body {
     font-size: 24px;
     padding: 100px;
     text-align: center;
+    background: gray;
+    cursor: pointer;
+    border-radius: 10rem;
+    transition-property: transform;
+    transition-duration: 400ms;
+    &:hover {
+        transform: scale(1,15);
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -87,7 +78,6 @@ body {
     height: auto;
     margin-left: auto;
     border-radius: 10px;
-    opacity: 0;
 }
 
 @media screen and (min-width: 1200px) {
