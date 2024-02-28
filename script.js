@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     var animationTrigger = document.querySelector(".animation-trigger");
     var titreApplication = document.querySelector(".titre_application");
-    var animationTriggerPosition = animationTrigger.offsetTop;
+    var animationTriggerPosition = animationTrigger.getBoundingClientRect().top;
     var windowHeight = window.innerHeight;
   
     function checkAnimation() {
@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     }
   
-    checkAnimation(); // Vérifie l'animation lors du chargement initial
-    window.addEventListener("scroll", checkAnimation); // Vérifie l'animation lors du défilement
+    checkAnimation();
+    window.addEventListener("scroll", checkAnimation);
   });
+  
