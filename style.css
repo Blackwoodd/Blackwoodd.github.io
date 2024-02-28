@@ -29,10 +29,10 @@ body {
 
 .contact {
     font-size: 42px;
+    display: flex;
     align-items: center;
     cursor: pointer;
     padding: 100px;
-    border-radius: 10rem;
     transition-property: transform;
     transition-duration: 400ms;
     &:hover {
