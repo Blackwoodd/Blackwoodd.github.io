@@ -79,7 +79,6 @@ body {
     height: 100%;
     display: flex;
     overflow-x: hidden; /* Pour cacher le défilement horizontal */
-    animation: swipeAnimation 10s linear infinite; /* Animation de défilement automatique */
   }
   
   .page {
@@ -91,6 +90,7 @@ body {
     align-items: center;
     font-size: 24px;
     color: white;
+    transition: transform 1s ease; /* Transition pour l'animation de changement de page */
   }
   
   .content img {
@@ -115,6 +115,7 @@ body {
   .dot-active {
     background-color: #ff5733; /* Couleur du point actif */
   }
+  
   
 
   

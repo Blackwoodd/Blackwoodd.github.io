@@ -32,13 +32,19 @@ window.onload = () => {
 /////////////////////////////////////////////////
 
 const screen = document.querySelector('.screen');
+let currentPage = 0;
 
-screen.addEventListener('mouseenter', () => {
-  screen.style.animationPlayState = 'paused'; // Pause l'animation lorsqu'une page est survolée
-});
+function changePage() {
+  currentPage++;
+  if (currentPage > 2) {
+    currentPage = 0;
+  }
+  const pages = document.querySelectorAll('.page');
+  const screenWidth = document.querySelector('.phone-frame').offsetWidth;
+  screen.style.transform = `translateX(-${currentPage * screenWidth}px)`;
+}
 
-screen.addEventListener('mouseleave', () => {
-  screen.style.animationPlayState = 'running'; // Reprise de l'animation lorsque le survol est terminé
-});
+setInterval(changePage, 5000); // Change de page toutes les 5 secondes
+
 
 
