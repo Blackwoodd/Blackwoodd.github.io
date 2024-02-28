@@ -70,7 +70,9 @@ body {
 
 .iphone {
   position: absolute;
-  height: 879px;
+  height: 630px;
+  transform: translateX(-20px);
+  transform: translateY(-20px);
 }
 
 
