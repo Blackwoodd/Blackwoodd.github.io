@@ -19,8 +19,8 @@ body {
 }
 
 .animation-trigger {
-    transform: translateY(20px);
-    transition: opacity 1s, transform 1s;
+    transform: translateX(20px);
+    transition: opacity 1s, transform 400ms;
 }
 
 .block p {
@@ -60,3 +60,62 @@ body {
     bottom: 0;
     background: purple;
 }
+
+
+
+
+
+.phone-frame {
+    width: 300px; /* Largeur du cadre de téléphone */
+    height: 600px; /* Hauteur du cadre de téléphone */
+    background-color: #000;
+    border-radius: 20px; /* Bordures arrondies pour simuler la forme d'un téléphone */
+    position: relative;
+    overflow: hidden; /* Pour cacher le contenu en dehors du cadre de téléphone */
+  }
+  
+  .screen {
+    width: 300%;
+    height: 100%;
+    display: flex;
+    overflow-x: hidden; /* Pour cacher le défilement horizontal */
+    animation: swipeAnimation 10s linear infinite; /* Animation de défilement automatique */
+  }
+  
+  .page {
+    width: 33.333%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .page1 {
+    background-color: #ff5733;
+  }
+  
+  .page2 {
+    background-color: #33ff57;
+  }
+  
+  .page3 {
+    background-color: #5733ff;
+  }
+  
+  @keyframes swipeAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    33.333% {
+      transform: translateX(-100%);
+    }
+    66.666% {
+      transform: translateX(-200%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  

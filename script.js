@@ -28,3 +28,16 @@ window.onload = () => {
         checkAnimation();
     });
 });
+
+/////////////////////////////////////////////////
+
+const screen = document.querySelector('.screen');
+
+screen.addEventListener('mouseenter', () => {
+  screen.style.animationPlayState = 'paused'; // Pause l'animation lorsqu'une page est survolée
+});
+
+screen.addEventListener('mouseleave', () => {
+  screen.style.animationPlayState = 'running'; // Reprise de l'animation lorsque le survol est terminé
+});
+
