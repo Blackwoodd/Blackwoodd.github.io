@@ -71,8 +71,15 @@ body {
 .iphone {
   position: absolute;
   height: 630px;
-  transform: translateX(-20px) translateY(-20px);
+  transform: translateX(-20px) translateY(-10px);
 }
 
-
-
+.deco_phone {
+  position: absolute;
+  top: 5px; /* Ajustez la position verticale */
+  left: 5px; /* Ajustez la position horizontale */
+  width: calc(100% - 10px); /* Largeur du trait */
+  height: calc(100% - 10px); /* Hauteur du trait */
+  border: 5px solid black; /* Épaisseur et couleur du trait */
+  border-radius: 20px; /* Bord arrondi */
+}
