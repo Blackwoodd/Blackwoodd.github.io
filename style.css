@@ -16,7 +16,6 @@ body {
     display: flex;
     align-items: center; /* Aligne les éléments sur l'axe vertical */
     justify-content: space-around;
-    opacity: 0;
 }
 
 .animation-trigger {
@@ -30,9 +29,9 @@ body {
 
 .contact {
     background: gray;
-    font-size: 3rem;
+    font-size: 42px;
     cursor: pointer;
-    padding: 1.85rem 3rem;
+    padding: 100px;
     border-radius: 10rem;
     transition-property: transform;
     transition-duration: 400ms;
