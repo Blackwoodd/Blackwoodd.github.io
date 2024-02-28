@@ -78,7 +78,6 @@ body {
     width: 300%; /* Largeur égale à trois fois la largeur d'une page */
     height: 100%;
     display: flex;
-    overflow-x: hidden; /* Pour cacher le défilement horizontal */
     transition: transform 1s ease; /* Transition pour l'animation de changement de page */
   }
   
@@ -116,5 +115,6 @@ body {
   .dot-active {
     background-color: #ff5733; /* Couleur du point actif */
   }
+  
   
   

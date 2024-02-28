@@ -45,3 +45,4 @@ function changePage() {
 }
 
 setInterval(changePage, 5000); // Change de page toutes les 5 secondes
+
