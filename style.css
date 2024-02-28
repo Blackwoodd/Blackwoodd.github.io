@@ -16,7 +16,7 @@ body {
     }
 }
 
-.content {
+.block {
     padding: 100px;
     font-size: 24px;
     display: flex;
@@ -24,8 +24,6 @@ body {
     align-items: center; /* Aligne les éléments sur l'axe vertical */
     justify-content: space-around;
     opacity: 0;
-    transform: scale(0.5); /* Commencez avec une échelle réduite */
-    transition: opacity 1s, transform 1s;
 }
 
 .animation-trigger {
@@ -33,18 +31,13 @@ body {
     transition: opacity 1s, transform 1s;
 }
 
-.animation-trigger.active .image_app {
-    opacity: 1;
-    transform: scale(1);
-}
-
 @media screen and (min-width: 1200px) {
-    .content {
+    .block {
         font-size: 40px;
     }
 }
 
-.content p {
+.block p {
     max-width: 700;
 }
 
