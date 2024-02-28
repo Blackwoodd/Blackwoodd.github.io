@@ -88,8 +88,6 @@ body {
     margin-left: auto;
     border-radius: 10px;
     opacity: 0;
-    transform: scale(0.5); /* Commencez avec une échelle réduite */
-    transition: opacity 1s, transform 1s;
 }
 
 @media screen and (min-width: 1200px) {
