@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
     function updateScrollbar() {
       var windowHeight = window.innerHeight;
-      var pageHeight = document.body.clientHeight;
+      var pageHeight = document.documentElement.scrollHeight;
       var scrollTop = window.scrollY;
       var scrollbarWidth = (scrollTop / (pageHeight - windowHeight)) * 100;
       scrollbar.style.width = scrollbarWidth + "%";
@@ -36,4 +36,5 @@ document.addEventListener("DOMContentLoaded", function() {
       updateScrollbar();
     });
   });
+  
   
