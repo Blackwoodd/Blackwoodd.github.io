@@ -16,23 +16,7 @@ body {
     }
 }
 
-.titre_application {
-    opacity: 0; /* Commencez avec une opacité de 0 */
-    transform: translateY(20px);
-    transition: opacity 1s, transform 1s;
-  }
-  
-  /* .animation-trigger{
-    animation-duration: 3s;
-    animation-name: slidein;
-  } */
-
-  .animate {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-  @keyframes slidein {
+@keyframes slidein {
     from {
         margin-left: 100%;
         width: 300%;
@@ -41,7 +25,7 @@ body {
         margin-left: 0%;
         width: 100%;
     }
-  }
+}
 
 @media screen and (min-width: 1200px) {
     .titre_application {
@@ -56,9 +40,16 @@ body {
     flex-wrap: nowrap;
     align-items: center; /* Aligne les éléments sur l'axe vertical */
     justify-content: space-around;
+    transform: translateY(20px);
+    transition: opacity 1s, transform 1s;
 }
 
-.animation-trigger.active .image_app, .animation-trigger.active .titre_application {
+.animation-trigger {
+    transform: translateY(20px);
+    transition: opacity 1s, transform 1s;
+}
+
+.animation-trigger.active .image_app, .animation-trigger.active {
     opacity: 1;
     transform: translateY(0);
 }
