@@ -1,40 +1,11 @@
-document.addEventListener("DOMContentLoaded", function() {
-    var animationTrigger = document.querySelector(".animation-trigger");
-    var titreApplication = document.querySelector(".titre_application");
-    var animationTriggerPosition = animationTrigger.getBoundingClientRect().top;
-    var windowHeight = window.innerHeight;
-  
-    function checkAnimation() {
-      var windowTop = window.scrollY;
-      if (windowTop + windowHeight > animationTriggerPosition) {
-        animationTrigger.classList.add("active");
-      }
-    }
-  
-    checkAnimation();
-    window.addEventListener("scroll", checkAnimation);
-  });
+window.onload = () => {
+    window.addEventListener("scroll", ()=> {
 
-  document.addEventListener("DOMContentLoaded", function() {
-    var scrollbar = document.getElementById("scrollbar");
-  
-    function updateScrollbar() {
-      var windowHeight = window.innerHeight;
-      var pageHeight = document.documentElement.scrollHeight;
-      var scrollTop = window.scrollY;
-      var scrollbarWidth = (scrollTop / (pageHeight - windowHeight)) * 100;
-      scrollbar.style.width = scrollbarWidth + "%";
-    }
-  
-    updateScrollbar();
-  
-    window.addEventListener("scroll", function() {
-      updateScrollbar();
+        let hauteur = document.documentElement.scrollHeight - window.innerHeight;
+        let position = window.scrollY;
+        let largeur = document.documentElement.clientWidth;
+        let barre = (position / hauteur) * largeur;
+
+        document.getElementById("scrollbarre").style.width = barre + "px";
     });
-  
-    window.addEventListener("resize", function() {
-      updateScrollbar();
-    });
-  });
-  
-  
+ };
