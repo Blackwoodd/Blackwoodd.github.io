@@ -11,20 +11,20 @@ window.onload = () => {
  };
 
  document.addEventListener("DOMContentLoaded", function() {
-    var sections = document.querySelectorAll(".animation-trigger");
+    var animationTrigger = document.querySelector(".animation-trigger");
+    var triggerPosition = animationTrigger.getBoundingClientRect().top;
+    var windowHeight = window.innerHeight;
 
     function checkAnimation() {
-        sections.forEach(function(section) {
-            var position = section.getBoundingClientRect().top;
-            var windowHeight = window.innerHeight;
-            if (position < windowHeight * 0.8) {
-                section.classList.add("animate");
-            } else {
-                section.classList.remove("animate");
-            }
-        });
+        var windowTop = window.scrollY;
+        if (windowTop + windowHeight > triggerPosition) {
+            animationTrigger.classList.add("active");
+        }
     }
 
     checkAnimation();
-    window.addEventListener("scroll", checkAnimation);
+
+    window.addEventListener("scroll", function() {
+        checkAnimation();
+    });
 });
