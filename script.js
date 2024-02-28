@@ -41,3 +41,4 @@ screen.addEventListener('mouseleave', () => {
   screen.style.animationPlayState = 'running'; // Reprise de l'animation lorsque le survol est terminé
 });
 
+
