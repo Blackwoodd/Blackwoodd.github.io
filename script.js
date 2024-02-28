@@ -39,12 +39,8 @@ function changePage() {
   if (currentPage > 2) {
     currentPage = 0;
   }
-  const pages = document.querySelectorAll('.page');
   const screenWidth = document.querySelector('.phone-frame').offsetWidth;
   screen.style.transform = `translateX(-${currentPage * screenWidth}px)`;
 }
 
 setInterval(changePage, 5000); // Change de page toutes les 5 secondes
-
-
-

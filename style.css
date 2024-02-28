@@ -69,28 +69,29 @@ body {
     position: relative;
     width: 300px; /* Largeur du cadre de téléphone */
     height: 600px; /* Hauteur du cadre de téléphone */
-    background: gray;
+    background: black;
     border-radius: 30px; /* Bordures arrondies pour simuler la forme d'un téléphone */
     overflow: hidden; /* Pour cacher le contenu en dehors du cadre de téléphone */
   }
   
   .screen {
-    width: 100%;
+    width: 300%; /* Largeur égale à trois fois la largeur d'une page */
     height: 100%;
     display: flex;
     overflow-x: hidden; /* Pour cacher le défilement horizontal */
+    transition: transform 1s ease; /* Transition pour l'animation de changement de page */
   }
   
   .page {
     width: 100%;
     height: 100%;
+    flex: 0 0 33.333%; /* Utilisation de flex pour répartir les pages sur l'écran */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 24px;
     color: white;
-    transition: transform 1s ease; /* Transition pour l'animation de changement de page */
   }
   
   .content img {
@@ -115,7 +116,4 @@ body {
   .dot-active {
     background-color: #ff5733; /* Couleur du point actif */
   }
-  
-  
-
   
