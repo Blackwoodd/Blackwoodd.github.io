@@ -74,9 +74,28 @@ body {
   transform: translateX(-20px) translateY(-10px);
 }
 
+@keyframes appLaunch {
+  0% {
+      transform: scale(1);
+      opacity: 0;
+  }
+  50% {
+      transform: scale(1.2);
+      opacity: 1;
+  }
+  100% {
+      transform: scale(1);
+      opacity: 0;
+  }
+}
+
 .deco_phone {
   position: absolute;
-  width: calc(200px); /* Largeur du trait */
-  transform: translateX(35px) translateY(200px);
-  border: 20px solid black; /* Épaisseur et couleur du trait */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff; /* Couleur de fond de l'application */
+  z-index: -1; /* Assurez-vous que la "deco_phone" est derrière l'image de l'iPhone */
+  animation: appLaunch 6s ease-in-out infinite; /* Utilisation de l'animation pour simuler le lancement de l'application */
 }
