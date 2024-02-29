@@ -18,6 +18,11 @@ body {
     justify-content: space-around;
 }
 
+.animation-trigger {
+    transform: translateX(20px);
+    transition: opacity 1s, transform 400ms;
+}
+
 .block p {
     max-width: 700;
 }
@@ -133,11 +138,4 @@ body {
 
 .phone .page1 {
     animation: changePage 5s infinite; /* Animation en boucle avec une durée de 5 secondes */
-}
-
-.ecran {
-  height: 609px;
-  width: 281px;
-  background-color: rgb(50, 49, 49);
-  border-radius: 35px;
 }
