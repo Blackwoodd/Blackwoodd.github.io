@@ -113,10 +113,6 @@ body {
   background: rgb(30, 29, 29);
 }
 
-.test {
-  animation: swap 500ms;
-}
-
 /* Styles de base pour les deux pages */
 .phone .page1,
 .phone .page2 {
@@ -128,6 +124,7 @@ body {
 /* Masquer la page inactive */
 .phone .page2 {
     opacity: 0;
+    z-index: 1; /* Assurez-vous que la page 2 est affichée au-dessus de la page 1 */
 }
 
 /* Animation pour passer de la page 1 à la page 2 */
@@ -141,5 +138,5 @@ body {
 }
 
 .phone .page1 {
-    animation: changePage 6s infinite; /* Animation en boucle avec une durée de 5 secondes */
+    animation: changePage 5s infinite; /* Animation en boucle avec une durée de 5 secondes */
 }
