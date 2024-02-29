@@ -74,23 +74,30 @@ body {
   transform: translateX(-20px) translateY(-10px);
 }
 
+.deco_phone_titre {
+  border: 10px solid rgb(27, 25, 25);
+  transform: translateX(72px) translateY(320px);
+  border-radius: 30px;
+  width: 135px;
+}
+
 .deco_phone {
   border: 5px solid rgb(27, 25, 25);
-  transform: translateX(35px) translateY(320px);
+  transform: translateX(72px) translateY(320px);
   border-radius: 30px;
-  width: 200px;
+  width: 135px;
 }
 
 .deco_phone2 {
   border: 5px solid rgb(27, 25, 25);
-  transform: translateX(35px) translateY(320px);
+  transform: translateX(38px) translateY(328px);
   border-radius: 30px;
   width: 200px;
 }
 
 .deco_phone3 {
   border: 5px solid rgb(27, 25, 25);
-  transform: translateX(35px) translateY(320px);
+  transform: translateX(38px) translateY(336px);
   border-radius: 30px;
   width: 200px;
 }
