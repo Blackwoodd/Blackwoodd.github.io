@@ -147,6 +147,7 @@ body {
   background-color: rgb(50, 49, 49);
   border-radius: 35px;
   overflow: scroll;
+  position: relative;
 }
 
 ::-webkit-scrollbar {
@@ -154,16 +155,24 @@ body {
 }
 
 .deco_ordinateur_titre {
-  border: 8px solid rgb(82, 81, 81);
+  background: rgb(82, 81, 81);
   transform: translateX(57px) translateY(229px);
   border-radius: 30px;
   width: 154px;
+  height: 50px;
+  position: absolute;
+  left: 35%;
+  top: 20%;
 }
 
 .deco_ordinateur {
-  border: 5px solid rgb(82, 81, 81);
+  background: rgb(82, 81, 81);
   border-radius: 30px;
-  width: 135px;
+  width: 155px;
+  height: 110px;
+  position: absolute;
+  left: 11%;
+  top: 41%;
 }
 
 .deco_ordinateur2 {
