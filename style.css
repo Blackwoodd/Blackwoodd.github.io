@@ -114,14 +114,15 @@ body {
 }
 
 /* Styles de base pour les deux pages */
-.phone .page1 {
+.phone .page1,
+.phone .page2 {
     position: absolute;
     opacity: 1; /* Page active visible par défaut */
     transition: opacity 0.5s ease; /* Transition d'opacité */
 }
 
 /* Masquer la page inactive */
-.phone {
+.phone .page2 {
     opacity: 0;
     z-index: 1; /* Assurez-vous que la page 2 est affichée au-dessus de la page 1 */
 }
