@@ -115,6 +115,7 @@ body {
 
 /* Styles de base pour les deux pages */
 /* Styles de base pour les éléments */
+/* Styles de base pour les éléments */
 .deco_phone_titre,
 .deco_phone,
 .deco_phone2,
@@ -123,19 +124,17 @@ body {
     border-radius: 30px;
     border: 5px solid rgb(82, 81, 81);
     width: 200px;
+    opacity: 1; /* Opacité par défaut */
 }
 
-/* Animation pour les traits */
-@keyframes fadeOut {
+/* Animation pour la disparition de la page 1 */
+@keyframes fadeOutPage1 {
     0% { opacity: 1; }
     100% { opacity: 0; }
 }
 
-.deco_phone_titre,
-.deco_phone,
-.deco_phone2,
-.deco_phone3 {
-    animation: fadeOut 5s infinite alternate; /* Animation en boucle avec une durée de 5 secondes */
+.page1 {
+    animation: fadeOutPage1 5s forwards; /* Animation pour la disparition de la page 1 */
 }
 
 /* Styles pour la deuxième forme de page */
@@ -143,19 +142,14 @@ body {
     display: none; /* Masquer la deuxième forme de page par défaut */
 }
 
-/* Animation pour le changement de page */
-@keyframes changePage {
+/* Animation pour l'apparition de la page 2 */
+@keyframes fadeInPage2 {
     0% { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 .page2 {
     display: block;
-    animation: changePage 10s infinite; /* Animation en boucle avec une durée de 10 secondes */
+    animation: fadeInPage2 5s 5s forwards; /* Animation pour l'apparition de la page 2 après 5 secondes */
 }
 
-
-.phone .page1 {
-    animation: changePage 10s infinite; /* Animation en boucle avec une durée de 5 secondes */
-}
