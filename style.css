@@ -18,11 +18,6 @@ body {
     justify-content: space-around;
 }
 
-.animation-trigger {
-    transform: translateX(20px);
-    transition: opacity 1s, transform 400ms;
-}
-
 .block p {
     max-width: 700;
 }
