@@ -113,18 +113,15 @@ body {
   background: rgb(30, 29, 29);
 }
 
+.test {
+  animation: swap 500ms;
+}
+
 /* Styles de base pour les deux pages */
-.phone .page1,
-.phone .page2 {
+.phone .page1 {
     position: absolute;
     opacity: 1; /* Page active visible par défaut */
     transition: opacity 0.5s ease; /* Transition d'opacité */
-}
-
-/* Masquer la page inactive */
-.phone .page2 {
-  opacity: 0;
-  z-index: 1; /* Assurez-vous que la page 2 est affichée au-dessus de la page 1 */
 }
 
 /* Animation pour passer de la page 1 à la page 2 */
