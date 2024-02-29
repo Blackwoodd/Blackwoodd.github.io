@@ -139,3 +139,10 @@ body {
 .phone .page1 {
     animation: changePage 5s infinite; /* Animation en boucle avec une durée de 5 secondes */
 }
+
+.ecran {
+  height: 609px;
+  width: 281px;
+  background-color: rgb(50, 49, 49);
+  border-radius: 35px;
+}
