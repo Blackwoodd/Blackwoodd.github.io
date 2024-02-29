@@ -117,13 +117,10 @@ body {
   animation: swap 500ms;
 }
 
+/* Styles de base pour les deux pages */
 .phone .page1,
 .phone .page2 {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
     opacity: 1; /* Page active visible par défaut */
     transition: opacity 0.5s ease; /* Transition d'opacité */
 }
@@ -134,10 +131,15 @@ body {
 }
 
 /* Animation pour passer de la page 1 à la page 2 */
-.phone:hover .page1 {
-    opacity: 0;
+@keyframes changePage {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
 }
 
-.phone:hover .page2 {
-    opacity: 1;
+.phone .page1 {
+    animation: changePage 5s infinite; /* Animation en boucle avec une durée de 5 secondes */
 }
