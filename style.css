@@ -64,7 +64,7 @@ body {
 .phone {
   height: 609px;
   width: 281px;
-  background-color: purple;
+  background-color: rgb(80, 5, 80);
   border-radius: 35px;
 }
 
@@ -79,5 +79,5 @@ body {
 }
 
 .site_zone {
-  background: gray;
+  background: rgb(47, 45, 45);
 }
