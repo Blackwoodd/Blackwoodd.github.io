@@ -75,7 +75,24 @@ body {
 }
 
 .deco_phone {
+  border: 5px solid rgb(27, 25, 25);
+  transform: translateX(35px) translateY(320px);
+  border-radius: 30px;
+  width: 200px;
+}
 
+.deco_phone2 {
+  border: 5px solid rgb(27, 25, 25);
+  transform: translateX(35px) translateY(320px);
+  border-radius: 30px;
+  width: 200px;
+}
+
+.deco_phone3 {
+  border: 5px solid rgb(27, 25, 25);
+  transform: translateX(35px) translateY(320px);
+  border-radius: 30px;
+  width: 200px;
 }
 
 .site_zone {
