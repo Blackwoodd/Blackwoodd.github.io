@@ -164,7 +164,7 @@ body {
   top: 108%;
 }
 
-.deco_ordinateur_text:nth-child(1) {
+.deco_ordinateur_text {
   background: rgb(82, 81, 81);
   border-radius: 20px;
   width: 222px;
@@ -174,7 +174,7 @@ body {
   top: 133%;
 }
 
-.deco_ordinateur_text:nth-child(2) {
+.deco_ordinateur_text2 {
   background: rgb(82, 81, 81);
   border-radius: 20px;
   width: 222px;
@@ -184,7 +184,7 @@ body {
   top: 133%;
 }
 
-.deco_ordinateur_text:nth-child(3) {
+.deco_ordinateur_text3 {
   background: rgb(82, 81, 81);
   border-radius: 20px;
   width: 222px;
