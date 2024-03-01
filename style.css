@@ -199,3 +199,8 @@ body {
 .text_block {
   width: 500px;
 }
+
+.text_block_app {
+  width: 500px;
+  transform: translateX(38px);
+}
