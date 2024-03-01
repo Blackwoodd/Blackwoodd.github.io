@@ -144,7 +144,7 @@ body {
 .ordinateur {
   height: 300px;
   width: 500px;
-  background-color: rgb(50, 49, 49);
+  background-color:rgb(60, 67, 88);
   border-radius: 35px;
   overflow: scroll;
   position: relative;
@@ -164,36 +164,12 @@ body {
   top: 10%;
   }
 
-.deco_ordinateur {
-  background: rgb(82, 81, 81);
-  border-radius: 20px;
-  width: 140px;
-  height: 110px;
-  position: absolute;
-  left: 4%;
-  top: 41%;
-  }
-
-.deco_ordinateur2 {
-  background: rgb(82, 81, 81);
-  border-radius: 20px;
-  width: 140px;
-  height: 110px;
-  position: absolute;
-  left: 36%;
-  top: 41%;
-  }
-
-.deco_ordinateur3 {
-  background: rgb(82, 81, 81);
-  border-radius: 20px;
-  width: 140px;
-  height: 110px;
-  position: absolute;
-  left: 68%;
-  top: 41%;
-  }
-
   .ecran_titre {
-    background: yellow;
-  }
+    background: rgba(223, 118, 0, 1);
+    padding: 59px;
+    font-size: 57px;
+    color: rgba(255, 166, 0, 0.23);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
