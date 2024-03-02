@@ -46,3 +46,12 @@ function changePage() {
 
 setInterval(changePage, 5000); // Change de page toutes les 5 secondes
 
+
+const langagesScroll = document.querySelector('.langages-scroll');
+
+function defilementAuto() {
+    langagesScroll.scrollLeft += 2; // Ajustez la vitesse de défilement ici
+}
+
+setInterval(defilementAuto, 30); // Ajustez l'intervalle de défilement ici
+

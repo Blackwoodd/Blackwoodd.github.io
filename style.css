@@ -223,3 +223,14 @@ html {
   border-right: 20px solid transparent;
   border-top: 30px solid #c1c1c1;
 }
+
+.langages-scroll {
+  overflow-x: auto; /* Permet le défilement horizontal */
+  white-space: nowrap; /* Empêche le retour à la ligne */
+}
+
+.langage {
+  display: inline-block; /* Affiche les langages en ligne */
+  margin-right: 20px; /* Marge entre chaque langage */
+}
+
