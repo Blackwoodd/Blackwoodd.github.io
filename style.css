@@ -239,9 +239,11 @@ html {
 .langage2 img { 
   width: 220px; /* Ajustez la largeur selon vos besoins */
   height: auto;
+  transform: translateX(38px) translateY(336px);
 }
 
 .langage3 img { 
   width: 170px; /* Ajustez la largeur selon vos besoins */
   height: auto;
+  transform: translateX(38px) translateY(336px);
 }
