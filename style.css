@@ -208,6 +208,7 @@ body {
 
 html {
   scroll-behavior: smooth;
+  scroll-behavior: 1000ms;
 }
 
 .info_app {
