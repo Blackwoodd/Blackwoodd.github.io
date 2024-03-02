@@ -234,11 +234,13 @@ html {
 
 .photos-container {
   display: flex;
-  animation: defilement 10s linear infinite;
+  animation: defilement 5s linear infinite;
+  width: 200%;
 }
 
 .langage {
   flex-shrink: 0;
+  width: 50%;
 }
 
 @keyframes defilement {
