@@ -215,3 +215,11 @@ html {
   padding: 50px;
   font-size: 34px;
 }
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 30px solid #000;
+}
