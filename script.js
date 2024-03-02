@@ -29,20 +29,20 @@ window.onload = () => {
     });
 });
 
-/////////////////////////////////////////////////
+// /////////////////////////////////////////////////
 
-const screen = document.querySelector('.screen');
-let currentPage = 0;
+// const screen = document.querySelector('.screen');
+// let currentPage = 0;
 
-function changePage() {
-  currentPage++;
-  if (currentPage > 2) {
-    currentPage = 0;
-  }
-  const screenWidth = document.querySelector('.phone-frame').offsetWidth;
-  screen.style.transition = 'transform 1s ease'; // Ajout de la transition pour l'animation de changement de page
-  screen.style.transform = `translateX(-${currentPage * screenWidth}px)`;
-}
+// function changePage() {
+//   currentPage++;
+//   if (currentPage > 2) {
+//     currentPage = 0;
+//   }
+//   const screenWidth = document.querySelector('.phone-frame').offsetWidth;
+//   screen.style.transition = 'transform 1s ease'; // Ajout de la transition pour l'animation de changement de page
+//   screen.style.transform = `translateX(-${currentPage * screenWidth}px)`;
+// }
 
-setInterval(changePage, 5000); // Change de page toutes les 5 secondes
+// setInterval(changePage, 5000); // Change de page toutes les 5 secondes
 
