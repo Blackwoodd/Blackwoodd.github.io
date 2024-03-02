@@ -229,20 +229,23 @@ html {
   display: flex;
   justify-content: space-around;
   padding: 100px;
-  overflow: hidden; /* Cache les photos en dehors de la zone de défilement */
-  white-space: nowrap; /* Empêche le retour à la ligne */
+  overflow: hidden;
+}
+
+.photos-container {
+  display: flex;
+  animation: defilement 10s linear infinite;
 }
 
 .langage {
-  display: inline-block; /* Affiche les photos en ligne */
-  animation: defilement 10s linear infinite; /* Animation de défilement */
+  flex-shrink: 0;
 }
 
 @keyframes defilement {
   0% {
-      transform: translateX(100%); /* Départ à droite */
+      transform: translateX(0);
   }
   100% {
-      transform: translateX(-100%); /* Arrivée à gauche */
+      transform: translateX(-100%);
   }
 }
