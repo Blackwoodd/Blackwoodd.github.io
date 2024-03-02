@@ -229,25 +229,9 @@ html {
   display: flex;
   justify-content: space-around;
   padding: 100px;
-  overflow: hidden;
 }
 
-.photos-container {
-  display: flex;
-  animation: defilement 5s linear infinite;
-  width: 200%;
-}
-
-.langage {
-  flex-shrink: 0;
-  width: 50%;
-}
-
-@keyframes defilement {
-  0% {
-      transform: translateX(0);
-  }
-  100% {
-      transform: translateX(-100%);
-  }
+.langage img{ 
+  width: 50px; /* Ajustez la largeur selon vos besoins */
+  height: auto;
 }
