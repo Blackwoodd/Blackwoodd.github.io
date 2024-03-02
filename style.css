@@ -229,4 +229,20 @@ html {
   display: flex;
   justify-content: space-around;
   padding: 100px;
+  overflow: hidden; /* Cache les photos en dehors de la zone de défilement */
+  white-space: nowrap; /* Empêche le retour à la ligne */
+}
+
+.langage {
+  display: inline-block; /* Affiche les photos en ligne */
+  animation: defilement 10s linear infinite; /* Animation de défilement */
+}
+
+@keyframes defilement {
+  0% {
+      transform: translateX(100%); /* Départ à droite */
+  }
+  100% {
+      transform: translateX(-100%); /* Arrivée à gauche */
+  }
 }
