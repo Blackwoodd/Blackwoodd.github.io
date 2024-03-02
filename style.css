@@ -226,8 +226,7 @@ html {
 
 .barre_defilement {
   background: gray;
-}
-
-.langage {
   display: flex;
+  justify-content: space-around;
+  padding: 100px;
 }
