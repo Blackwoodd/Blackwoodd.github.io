@@ -231,7 +231,17 @@ html {
   padding: 100px;
 }
 
-.langage img{ 
+.langage1 img{ 
+  width: 50px; /* Ajustez la largeur selon vos besoins */
+  height: auto;
+}
+
+.langage2 img{ 
+  width: 50px; /* Ajustez la largeur selon vos besoins */
+  height: auto;
+}
+
+.langage3 img{ 
   width: 50px; /* Ajustez la largeur selon vos besoins */
   height: auto;
 }
