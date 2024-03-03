@@ -231,8 +231,8 @@ html {
 }
 
 .barre_defilement p {
-  display: inline-block; /* Ajout de cette propriété */
-  vertical-align: middle; /* Ajout de cette propriété pour aligner le texte verticalement */
+  display: flex;
+  justify-content: center;
 }
 
 .image_html {
