@@ -261,6 +261,10 @@ html {
   padding-right: 10px;
 }
 
+.image_js h3 {
+  transform: translateX(0) translateY(0);
+}
+
 .image_js img {
   width: 184px;
   height: auto;
