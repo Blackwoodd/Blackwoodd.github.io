@@ -230,6 +230,8 @@ html {
   justify-content: space-around;
   padding: 100px;
   white-space: nowrap; 
+  overflow: hidden;
+  position: relative;
 }
 
 .langage1 img { 
