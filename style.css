@@ -282,6 +282,11 @@ html {
   height: auto;
 }
 
+.image_figma img {
+  width: 300px;
+  height: auto;
+}
+
   @keyframes scale-animation {
     0% {
       transform: scale(1);
