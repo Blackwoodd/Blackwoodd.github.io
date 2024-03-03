@@ -281,7 +281,8 @@ html {
     animation: scale-animation 3s linear infinite;
   }
 
-  .html, .css, .javascript {
-    color: red;
+  .barre_defilement p{
+    display: flex;
+    justify-content: center;
   }
   
