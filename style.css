@@ -272,6 +272,16 @@ html {
   animation: scale-animation 3s linear infinite;
 }
 
+.image_swift {
+  display: inline-block;
+  padding-right: 130px;
+}
+
+.image_swift img {
+  width: 300px;
+  height: auto;
+}
+
   @keyframes scale-animation {
     0% {
       transform: scale(1);
