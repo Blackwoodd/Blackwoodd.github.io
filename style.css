@@ -238,6 +238,21 @@ html {
   margin-right: 20px; /* Espacement entre les images */
 }
 
+.image1 {
+  width: 300px;
+  height: auto;
+}
+
+.image2 {
+  width: 220px;
+  height: auto;
+}
+
+.image3 {
+  width: 175px;
+  height: auto;
+}
+
 @keyframes scroll-left {
   0% {
     transform: translateX(0); /* Commence à gauche */
@@ -246,4 +261,3 @@ html {
     transform: translateX(calc(-100% - 20px)); /* Se déplace jusqu'à la gauche, ajusté pour l'espacement entre les images */
   }
 }
-
