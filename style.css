@@ -230,6 +230,11 @@ html {
   margin-left: 180;
 }
 
+.barre_defilement p {
+  display: inline-block; /* Ajout de cette propriété */
+  vertical-align: middle; /* Ajout de cette propriété pour aligner le texte verticalement */
+}
+
 .image_html {
   display: inline-block;
   padding-right: 130px;
@@ -252,18 +257,22 @@ html {
 }
 
 .image_js {
-  transform: translateY(-17px);
   display: inline-block;
   padding-right: 10px;
 }
 
 .image_js img {
-  transform: translateY(-16px);
   width: 184px;
   height: auto;
-  }
+}
 
-  @keyframes scale-animation {
+.image_html img,
+.image_css img,
+.image_js img {
+  animation: scale-animation 3s linear infinite;
+}
+
+@keyframes scale-animation {
     0% {
       transform: scale(1);
     }
@@ -273,20 +282,5 @@ html {
     100% {
       transform: scale(1);
     }
-  }
-  
-  .image_html img,
-  .image_css img,
-  .image_js img {
-    animation: scale-animation 3s linear infinite;
-  }
-
-  .barre_defilement p {
-    display: flex;
-    justify-content: center;
-  }
-
-  .image_js p {
-    padding-top: 20px;
-  }
+}
   
