@@ -229,11 +229,11 @@ html {
   white-space: nowrap;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .barre_defilement p {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .image_html {
@@ -247,7 +247,6 @@ html {
 }
 
 .image_css { 
-  transform: translateY(-3px);
   display: inline-block;
   padding-right: 200px;
 }
