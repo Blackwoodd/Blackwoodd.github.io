@@ -285,4 +285,8 @@ html {
     display: flex;
     justify-content: center;
   }
+
+  .image_js p {
+    padding-top: 20px;
+  }
   
