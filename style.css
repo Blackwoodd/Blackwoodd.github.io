@@ -251,7 +251,7 @@ html {
   display: inline-block;
   position: absolute;
   left: 100%;
-  animation: scroll-left 10s linear infinite;
+  animation: scroll-left2 10s linear infinite;
   transition: left 0.1s linear; 
 }
 
@@ -262,7 +262,7 @@ html {
   display: inline-block;
   position: absolute;
   left: 100%;
-  animation: scroll-left 10s linear infinite;
+  animation: scroll-left3 10s linear infinite;
   transition: left 0.1s linear;
 }
 
@@ -273,6 +273,24 @@ html {
 @keyframes scroll-left {
   0% {
     left: 100%; /* Commence à droite */
+  }
+  100% {
+    left: -100%; /* Se déplace jusqu'à la gauche */
+  }
+}
+
+@keyframes scroll-left2 {
+  0% {
+    left: 120%; /* Commence à droite */
+  }
+  100% {
+    left: -100%; /* Se déplace jusqu'à la gauche */
+  }
+}
+
+@keyframes scroll-left3 {
+  0% {
+    left: 140%; /* Commence à droite */
   }
   100% {
     left: -100%; /* Se déplace jusqu'à la gauche */
