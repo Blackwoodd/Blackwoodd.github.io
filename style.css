@@ -243,6 +243,7 @@ html {
     transform: translateX(0); /* Commence à gauche */
   }
   100% {
-    transform: translateX(-100%); /* Se déplace jusqu'à la gauche */
+    transform: translateX(calc(-100% - 20px)); /* Se déplace jusqu'à la gauche, ajusté pour l'espacement entre les images */
   }
 }
+
