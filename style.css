@@ -260,16 +260,23 @@ html {
 
 .langage:last-child {
   margin-right: 0; /* Supprimer la marge de la dernière image */
+  animation: defilement-return 10s linear infinite;
 }
 
-@keyframes defilement {
+@keyframes defilement-langage {
   0% {
       transform: translateX(100%);
   }
-  50% {
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+@keyframes defilement-return {
+  0% {
       transform: translateX(0);
   }
   100% {
-      transform: translateX(-100%);
+      transform: translateX(100%);
   }
 }
