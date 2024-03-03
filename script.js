@@ -10,24 +10,24 @@ window.onload = () => {
     });
  };
 
- document.addEventListener("DOMContentLoaded", function() {
-    var animationTrigger = document.querySelector(".animation-trigger");
-    var triggerPosition = animationTrigger.getBoundingClientRect().top;
-    var windowHeight = window.innerHeight;
+//  document.addEventListener("DOMContentLoaded", function() {
+//     var animationTrigger = document.querySelector(".animation-trigger");
+//     var triggerPosition = animationTrigger.getBoundingClientRect().top;
+//     var windowHeight = window.innerHeight;
 
-    function checkAnimation() {
-        var windowTop = window.scrollY;
-        if (windowTop + windowHeight > triggerPosition) {
-            animationTrigger.classList.add("active");
-        }
-    }
+//     function checkAnimation() {
+//         var windowTop = window.scrollY;
+//         if (windowTop + windowHeight > triggerPosition) {
+//             animationTrigger.classList.add("active");
+//         }
+//     }
 
-    checkAnimation();
+//     checkAnimation();
 
-    window.addEventListener("scroll", function() {
-        checkAnimation();
-    });
-});
+//     window.addEventListener("scroll", function() {
+//         checkAnimation();
+//     });
+// });
 
 // /////////////////////////////////////////////////
 
