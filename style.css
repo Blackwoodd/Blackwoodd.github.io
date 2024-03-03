@@ -271,28 +271,28 @@ html {
   }
 
 @keyframes scroll-left {
-  0% {
-    left: 100%; /* Commence à droite */
+  from {
+    transform: translateX(0);
   }
-  100% {
-    left: -100%; /* Se déplace jusqu'à la gauche */
+  to { 
+    transform: translateX(-100%);
   }
 }
 
 @keyframes scroll-left2 {
-  0% {
-    left: 120%; /* Commence à droite */
+  from {
+    transform: translateX(0);
   }
-  100% {
-    left: -100%; /* Se déplace jusqu'à la gauche */
+  to { 
+    transform: translateX(-100%);
   }
 }
 
 @keyframes scroll-left3 {
-  0% {
-    left: 140%; /* Commence à droite */
+  from {
+    transform: translateX(0);
   }
-  100% {
-    left: -100%; /* Se déplace jusqu'à la gauche */
+  to { 
+    transform: translateX(-100%);
   }
 }
