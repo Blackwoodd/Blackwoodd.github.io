@@ -241,8 +241,6 @@ html {
 }
 
 .image_css { 
-  width: 230px;
-  height: auto;
   transform: translateY(-3px);
   display: inline-block;
   padding-right: 200px;
@@ -253,10 +251,8 @@ html {
   height: auto;
 }
 
-.image_js { 
-  width: 175px;
-  height: auto;
-  transform: translateY(38pxpx);
+.image_js {
+  transform: translateY(-17px);
   display: inline-block;
   padding-right: 10px;
 }
