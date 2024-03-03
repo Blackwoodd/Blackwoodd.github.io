@@ -245,7 +245,7 @@ html {
   height: auto;
   transform: translateY(6px);
   display: inline-block;
-  animation: scroll-left 10s linear infinite;
+  animation: scroll-left2 10s linear infinite;
   padding-right: 10px;
 }
 
@@ -259,7 +259,7 @@ html {
   height: auto;
   transform: translateY(38pxpx);
   display: inline-block;
-  animation: scroll-left 10s linear infinite;
+  animation: scroll-left3 10s linear infinite;
   padding-right: 10px;
 }
 
