@@ -262,7 +262,7 @@ html {
 }
 
 .image_js h3 {
-  transform: translateX(0) translateY(0);
+  transform: translateY(0);
 }
 
 .image_js img {
