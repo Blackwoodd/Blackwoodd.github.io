@@ -227,6 +227,7 @@ html {
 .barre_defilement {
   overflow: hidden;
   white-space: nowrap;
+  margin-left: 180;
 }
 
 .image_html {
@@ -278,5 +279,9 @@ html {
   .image_css img,
   .image_js img {
     animation: scale-animation 3s linear infinite;
+  }
+
+  .html, .css, .javascript {
+    color: red;
   }
   
