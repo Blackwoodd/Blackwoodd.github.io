@@ -300,4 +300,8 @@ html {
       transform: scale(1);
     }
   }
+
+.direction {
+  display: flex;
+}
   
