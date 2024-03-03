@@ -225,25 +225,51 @@ html {
 }
 
 .barre_defilement {
-  background: gray;
+  background: black;
   display: flex;
   justify-content: space-around;
   padding: 100px;
+  white-space: nowrap; 
 }
 
 .langage1 img { 
-  width: 300px; /* Ajustez la largeur selon vos besoins */
+  width: 300px;
   height: auto;
+  display: inline-block;
+  margin-right: 20px; /* Espacement entre les images */
+  animation: defilement 10s linear infinite;
 }
 
 .langage2 img { 
-  width: 220px; /* Ajustez la largeur selon vos besoins */
+  width: 220px;
   height: auto;
-  transform: translateX(38px) translateY(336px);
+  transform: translateY(6px);
+  display: inline-block;
+  margin-right: 20px; /* Espacement entre les images */
+  animation: defilement 10s linear infinite;
 }
 
 .langage3 img { 
-  width: 170px; /* Ajustez la largeur selon vos besoins */
+  width: 175px;
   height: auto;
-  transform: translateX(38px) translateY(336px);
+  transform: translateY(38pxpx);
+  display: inline-block;
+  margin-right: 20px; /* Espacement entre les images */
+  animation: defilement 10s linear infinite;
+}
+
+.langage:last-child {
+  margin-right: 0; /* Supprimer la marge de la dernière image */
+}
+
+@keyframes defilement {
+  0% {
+      transform: translateX(100%);
+  }
+  50% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
 }
