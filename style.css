@@ -225,39 +225,56 @@ html {
 }
 
 .barre_defilement {
-  width: 100%;
-  overflow: hidden;
-}
-
-.langage {
+  background: black;
   display: flex;
-  animation: scroll-left 20s linear infinite;
+  justify-content: space-around;
+  padding: 100px;
+  white-space: nowrap; 
+  overflow: hidden;
+  position: relative;
 }
 
-.langage img {
-  margin-right: 20px; /* Espacement entre les images */
-}
-
-.image1 {
+.langage1 img { 
   width: 300px;
   height: auto;
+  display: inline-block;
+  position: absolute;
+  left: 100%;
+  animation: scroll-left 10s linear infinite;
+  transition: left 0.1s linear;
 }
 
-.image2 {
+.langage2 img { 
   width: 220px;
   height: auto;
+  transform: translateY(6px);
+  display: inline-block;
+  position: absolute;
+  left: 100%;
+  animation: scroll-left 10s linear infinite;
+  transition: left 0.1s linear; 
 }
 
-.image3 {
+.langage3 img { 
   width: 175px;
   height: auto;
+  transform: translateY(38pxpx);
+  display: inline-block;
+  position: absolute;
+  left: 100%;
+  animation: scroll-left 10s linear infinite;
+  transition: left 0.1s linear;
+}
+
+.scrolling-images img {
+  margin-right: 20px; /* Espacement entre les images */
 }
 
 @keyframes scroll-left {
   0% {
-    transform: translateX(0); /* Commence à gauche */
+    left: 100%; /* Commence à droite */
   }
   100% {
-    transform: translateX(calc(-100% - 20px)); /* Se déplace jusqu'à la gauche, ajusté pour l'espacement entre les images */
+    left: -100%; /* Se déplace jusqu'à la gauche */
   }
 }
