@@ -272,7 +272,7 @@ html {
   animation: scale-animation 3s linear infinite;
 }
 
-@keyframes scale-animation {
+  @keyframes scale-animation {
     0% {
       transform: scale(1);
     }
@@ -282,5 +282,5 @@ html {
     100% {
       transform: scale(1);
     }
-}
+  }
   
