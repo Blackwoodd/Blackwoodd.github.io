@@ -262,14 +262,16 @@ html {
 }
 
 .image_js img {
-  width: 184px;
+  width: 172px;
   height: auto;
+  padding-bottom: 18px;
+  padding-top: 17px;
 }
 
 .image_html img,
 .image_css img,
 .image_js img {
-  animation: scale-animation 3s linear infinite;
+  animation: scale-animation 5s linear infinite;
 }
 
 .image_swift {
