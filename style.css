@@ -217,11 +217,11 @@ html {
 }
 
 .arrow-down {
-  width: 0; 
-  height: 0; 
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 30px solid #c1c1c1;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #ffffff;
 }
 
 .barre_defilement {
@@ -305,5 +305,9 @@ html {
     display: flex;
     align-items: center;
     text-decoration: none;
+  }
+
+  .plus {
+    padding-right: 20;
   }
   
