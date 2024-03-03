@@ -265,23 +265,23 @@ html {
   transform: translateY(-16px);
   width: 184px;
   height: auto;
-}
+  }
 
-@keyframes scale-animation {
-  0% {
-    transform: scale(1);
+  @keyframes scale-animation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
-  50% {
-    transform: scale(1.2);
+  
+  .image_html img,
+  .image_css img,
+  .image_js img {
+    animation: scale-animation 3s linear infinite;
   }
-  100% {
-    transform: scale(1);
-  }
-}
-
-.image_html img,
-.image_css img,
-.image_js img {
-  animation: scale-animation 3s linear infinite;
-}
   
