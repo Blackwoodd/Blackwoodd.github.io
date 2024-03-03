@@ -229,7 +229,7 @@ html {
   white-space: nowrap;
 }
 
-.image1 { 
+.image_html { 
   width: 300px;
   height: auto;
   display: inline-block;
@@ -237,7 +237,7 @@ html {
   padding-right: 10px;
 }
 
-.image2 { 
+.image_css { 
   width: 220px;
   height: auto;
   transform: translateY(6px);
@@ -246,7 +246,7 @@ html {
   padding-right: 10px;
 }
 
-.image3 { 
+.image_js { 
   width: 175px;
   height: auto;
   transform: translateY(38pxpx);
