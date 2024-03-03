@@ -227,7 +227,8 @@ html {
 .barre_defilement {
   overflow: hidden;
   white-space: nowrap;
-  margin-left: 180;
+  display: flex;
+  justify-content: center;
 }
 
 .barre_defilement p {
