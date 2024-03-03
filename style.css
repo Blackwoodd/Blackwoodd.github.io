@@ -275,6 +275,7 @@ html {
 .image_swift {
   display: inline-block;
   padding-right: 130px;
+  padding-left: 200px;
 }
 
 .image_swift img {
