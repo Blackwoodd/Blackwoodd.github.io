@@ -281,7 +281,7 @@ html {
     animation: scale-animation 3s linear infinite;
   }
 
-  .barre_defilement p{
+  .barre_defilement p {
     display: flex;
     justify-content: center;
   }
