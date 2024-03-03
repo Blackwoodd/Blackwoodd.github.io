@@ -300,13 +300,10 @@ html {
       transform: scale(1);
     }
   }
-
-  .direction {
-    display: flex;
-    align-items: center; /* Aligner verticalement les éléments */
-  }
   
   .direction a {
-    text-decoration: none; /* Supprimer la décoration de lien */
+    display: flex;
+    align-items: center;
+    text-decoration: none;
   }
   
