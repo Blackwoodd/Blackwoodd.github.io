@@ -301,7 +301,12 @@ html {
     }
   }
 
-.direction {
-  display: flex;
-}
+  .direction {
+    display: flex;
+    align-items: center; /* Aligner verticalement les éléments */
+  }
+  
+  .direction a {
+    text-decoration: none; /* Supprimer la décoration de lien */
+  }
   
