@@ -229,12 +229,15 @@ html {
   white-space: nowrap;
 }
 
-.image_html { 
-  width: 300px;
-  height: auto;
+.image_html {
   display: inline-block;
   animation: scroll-left 10s linear infinite;
   padding-right: 10px;
+}
+
+.image_html img {
+  width: 300px;
+  height: auto;
 }
 
 .image_css { 
@@ -246,6 +249,11 @@ html {
   padding-right: 10px;
 }
 
+.image_css img {
+  width: 220px;
+  height: auto;
+}
+
 .image_js { 
   width: 175px;
   height: auto;
@@ -253,6 +261,11 @@ html {
   display: inline-block;
   animation: scroll-left 10s linear infinite;
   padding-right: 10px;
+}
+
+.image_js img {
+  width: 175px;
+  height: auto;
 }
 
 @keyframes scroll-left {
