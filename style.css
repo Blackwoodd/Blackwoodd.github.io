@@ -232,7 +232,7 @@ html {
 
 .image_html {
   display: inline-block;
-  animation: scroll-left 10s linear infinite;
+  animation: scroll-left 3s linear infinite;
   padding-right: 130px;
 }
 
@@ -246,7 +246,7 @@ html {
   height: auto;
   transform: translateY(6px);
   display: inline-block;
-  animation: scroll-left2 10s linear infinite;
+  animation: scroll-left2 3s linear infinite;
   padding-right: 200px;
 }
 
@@ -260,7 +260,7 @@ html {
   height: auto;
   transform: translateY(38pxpx);
   display: inline-block;
-  animation: scroll-left3 10s linear infinite;
+  animation: scroll-left3 3s linear infinite;
   padding-right: 10px;
 }
 
