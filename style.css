@@ -33,6 +33,8 @@ body {
     &:hover {
         transform: scale(1.15);
     }
+    color: white;
+    text-decoration: none;
 }
 
 .titre2 {
