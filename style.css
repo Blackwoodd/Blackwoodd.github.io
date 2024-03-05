@@ -361,7 +361,7 @@ html {
     overflow: hidden;
   }
 
-  .ligne1, .ligne2n, .ligne3 {
+  .ligne1, .ligne2, .ligne3 {
     top: 0;
     display: flex;
     justify-content: space-around;
