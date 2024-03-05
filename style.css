@@ -365,17 +365,17 @@ html {
 
   .txt {
     white-space: nowrap;
-    font-size: 130px;
-    animation: Scroll-text 10s linear infinite;
+    font-size: 65px;
+    animation: Scroll-text 35s linear infinite;
   }
 
   @keyframes Scroll-text {
     0% {
-      transform: translateX(-100%)
+      transform: translateX(0%)
     }
 
     100% {
-      transform: translateX(0%)
+      transform: translateX(-100%)
     }
   }
   
