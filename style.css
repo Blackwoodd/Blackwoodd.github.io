@@ -142,35 +142,29 @@ body {
 }
 
 .titre_site {
-  position: absolute; /* Position absolue pour animer le titre */
-  top: 50%;
-  left: -100%; /* Déplacer le texte à l'extérieur du conteneur */
+  position: absolute;
+  left: 155;
   display: flex;
   justify-content: center;
-  align-items: center; /* Alignement vertical */
+  align-items: center;
   background: yellowgreen;
   line-height: 1;
   padding: 20px;
-  white-space: nowrap; /* Empêcher le texte de passer à la ligne */
-  animation-duration: 5s; /* Durée de l'animation */
-  animation-timing-function: ease-in-out; /* Fonction de temporisation */
-  animation-iteration-count: infinite; /* Animation en boucle */
+  white-space: nowrap;
+  animation: slide-right 10s linear infinite;
 }
 
 .photo_site {
-  position: absolute; /* Position absolue pour animer le texte "NEW" */
+  position: absolute;
   top: 50%;
-  right: -100%; /* Déplacer le texte à l'extérieur du conteneur */
+  right: 56%;
   display: flex;
   justify-content: center;
-  align-items: center; /* Alignement vertical */
+  align-items: center;
   background: rosybrown;
   width: 158px;
   padding: 20px;
-  white-space: nowrap; /* Empêcher le texte de passer à la ligne */
-  animation-duration: 5s; /* Durée de l'animation */
-  animation-timing-function: ease-in-out; /* Fonction de temporisation */
-  animation-iteration-count: infinite; /* Animation en boucle */
+  white-space: nowrap;
 }
 
 @keyframes slide-right {
@@ -182,18 +176,6 @@ body {
   }
   100% {
     left: -100%; /* Retour à gauche */
-  }
-}
-
-@keyframes slide-left {
-  0% {
-    right: -100%; /* Départ à droite */
-  }
-  50% {
-    right: 100%; /* Milieu (complètement à gauche) */
-  }
-  100% {
-    right: -100%; /* Retour à droite */
   }
 }
 
