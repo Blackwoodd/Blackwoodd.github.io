@@ -365,3 +365,23 @@ html {
     color: white;
   }
   
+
+  .scrolling-text {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .scrolling-text p {
+    display: inline-block;
+    padding-right: 50px; /* Espace entre chaque mot */
+    animation: scroll 10s linear infinite; /* 10s : Durée de l'animation */
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0); /* Commencer à la position initiale */
+    }
+    100% {
+      transform: translateX(-100%); /* Défiler vers la gauche */
+    }
+  }
