@@ -357,14 +357,21 @@ html {
   
 
   .scrolling-text {
-    position: relative;
     height: 200px; /* Hauteur de la zone de défilement */
     overflow: hidden;
   }
   
-  .word {
-    position: absolute;
-    transition: transform 5s linear;
+  .scrolling-text p {
+    animation: scrollText 10s linear infinite; /* Réglage de la vitesse et de la durée de l'animation */
+  }
+  
+  @keyframes scrollText {
+    0% {
+      transform: translateY(-100%); /* Démarre au-dessus de la zone visible */
+    }
+    100% {
+      transform: translateY(100%); /* Se termine sous la zone visible */
+    }
   }
   
   
