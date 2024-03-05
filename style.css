@@ -143,7 +143,8 @@ body {
 
 .titre_site {
   position: absolute;
-  left: 155;
+  left: -100%; /* Départ à gauche */
+  top: 50%; /* Position verticale au milieu de la page */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -152,6 +153,18 @@ body {
   padding: 20px;
   white-space: nowrap;
   animation: slide-right 10s linear infinite;
+}
+
+@keyframes slide-right {
+  0% {
+    left: -100%;
+  }
+  50% {
+    left: 50%; /* Arrête au milieu de la page */
+  }
+  100% {
+    left: 50%; /* Reprend le déplacement vers la droite */
+  }
 }
 
 .photo_site {
@@ -165,15 +178,6 @@ body {
   width: 158px;
   padding: 20px;
   white-space: nowrap;
-}
-
-@keyframes slide-right {
-  0% {
-    left: -100%;
-  }
-  100% {
-    left: 50%;
-  }
 }
 
   .ecran_titre {
