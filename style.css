@@ -133,8 +133,8 @@ body {
 }
 
 .ordinateur {
-  height: 300px;
-  width: 500px;
+  height: 400px;
+  width: 600px;
   background-color:rgb(60, 67, 88);
   border-radius: 35px;
   position: relative;
@@ -145,15 +145,21 @@ body {
   justify-content: center;
   background: yellowgreen;
   line-height: 1;
+  padding: 20px;
+
+  span {
+    background: blue;
+    line-height: 0;
+  }
 }
 
 .photo_site {
   background: rosybrown;
   display: flex;
   justify-content: center;
-  width: 150px;
-  margin-left: 20px;
-  padding-top: 150px;
+  width: 158px;
+  margin-left: 50px;
+  padding-top: 200px;
 }
 
   .ecran_titre {
