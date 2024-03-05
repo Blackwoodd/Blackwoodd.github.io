@@ -159,8 +159,11 @@ body {
   0% {
     left: -40%;
   }
-  50% {
+  20% {
     left: 25%; /* Arrête au milieu de la page */
+  }
+  70% {
+    left: 25%;
   }
   100% {
     left: -40%; /* Reprend le déplacement vers la droite */
