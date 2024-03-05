@@ -169,10 +169,10 @@ body {
 
 @keyframes slide-right {
   0% {
-    left: -100%; /* Départ à gauche */
+    left: -100%;
   }
-  50% {
-    left: 50%; /* Milieu (complètement à droite) */
+  100% {
+    left: 50%;
   }
 }
 
