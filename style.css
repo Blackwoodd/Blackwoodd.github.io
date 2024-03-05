@@ -362,6 +362,7 @@ html {
   }
 
   .ligne1, .ligne2n, .ligne3 {
+    top: 0;
     display: flex;
     justify-content: space-around;
   }
@@ -373,13 +374,10 @@ html {
   
   @keyframes scrollText {
     0% {
-      transform: translateY(0%); /* Démarre au-dessus de la zone visible */
+      top: 0; /* Commence en haut */
     }
     100% {
-      transform: translateY(100%); /* Se termine sous la zone visible */
-    }
-    200% {
-      transform: translateY(200%);
+      top: -100%; /* Se termine au-dessus de la zone visible */
     }
   }
   
