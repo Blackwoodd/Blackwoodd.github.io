@@ -6,7 +6,7 @@ body {
 }
 
 .titre {
-    padding: 100px;
+    padding: 50px;
     font-size: 52px;
 }
 
@@ -357,7 +357,7 @@ html {
   
 
   .scrolling-text {
-    height: 200px; /* Hauteur de la zone de défilement */
+    height: 300px; /* Hauteur de la zone de défilement */
     overflow: hidden;
   }
 
