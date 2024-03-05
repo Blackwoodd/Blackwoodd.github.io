@@ -357,7 +357,7 @@ html {
   
 
   .scrolling-text {
-    height: 100vh;
+    height: 10vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -365,7 +365,7 @@ html {
 
   .txt {
     white-space: nowrap;
-    font-size: 40px;
+    font-size: 130px;
     animation: Scroll-text 10s linear infinite;
   }
 
