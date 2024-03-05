@@ -157,13 +157,13 @@ body {
 
 @keyframes slide-right {
   0% {
-    left: -100%;
+    left: -40%;
   }
   50% {
     left: 25%; /* Arrête au milieu de la page */
   }
   100% {
-    left: 25%; /* Reprend le déplacement vers la droite */
+    left: -40%; /* Reprend le déplacement vers la droite */
   }
 }
 
