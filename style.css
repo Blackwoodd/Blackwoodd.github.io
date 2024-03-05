@@ -309,6 +309,8 @@ html {
   .scrolling-text {
     height: 10vh;
     width: 100%;
+    background: rgb(57, 6, 152);
+    padding: 20px;
     display: flex;
     align-items: center;
   }
