@@ -359,6 +359,9 @@ html {
   .scrolling-text {
     height: 200px; /* Hauteur de la zone de défilement */
     overflow: hidden;
+  }
+
+  .ligne1, .ligne2n, .ligne3 {
     display: flex;
     justify-content: space-around;
   }
