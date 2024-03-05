@@ -55,7 +55,7 @@ body {
     border-radius: 0px 50px 50px 0px;
     position: fixed;
     bottom: 0;
-    background: purple;
+    background: rgb(63, 44, 97);;
 }
 
 .phone {
@@ -309,7 +309,7 @@ html {
   .scrolling-text {
     height: 10vh;
     width: 100%;
-    background: rgb(57, 6, 152);
+    background: rgb(63, 44, 97);
     padding: 20px;
     display: flex;
     align-items: center;
