@@ -135,31 +135,66 @@ body {
 .ordinateur {
   height: 400px;
   width: 600px;
-  background-color:rgb(60, 67, 88);
-  border-radius: 35px;
-  position: relative;
+  background-color:rgb(29, 29, 29);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative; 
 }
 
 .titre_site {
+  position: absolute; /* Position absolue pour animer le titre */
+  top: 50%;
+  left: -100%; /* Déplacer le texte à l'extérieur du conteneur */
   display: flex;
   justify-content: center;
+  align-items: center; /* Alignement vertical */
   background: yellowgreen;
   line-height: 1;
   padding: 20px;
-
-  span {
-    background: blue;
-    line-height: 0;
-  }
+  white-space: nowrap; /* Empêcher le texte de passer à la ligne */
+  animation-duration: 5s; /* Durée de l'animation */
+  animation-timing-function: ease-in-out; /* Fonction de temporisation */
+  animation-iteration-count: infinite; /* Animation en boucle */
 }
 
 .photo_site {
-  background: rosybrown;
+  position: absolute; /* Position absolue pour animer le texte "NEW" */
+  top: 50%;
+  right: -100%; /* Déplacer le texte à l'extérieur du conteneur */
   display: flex;
   justify-content: center;
+  align-items: center; /* Alignement vertical */
+  background: rosybrown;
   width: 158px;
-  margin-left: 50px;
-  padding-top: 200px;
+  padding: 20px;
+  white-space: nowrap; /* Empêcher le texte de passer à la ligne */
+  animation-duration: 5s; /* Durée de l'animation */
+  animation-timing-function: ease-in-out; /* Fonction de temporisation */
+  animation-iteration-count: infinite; /* Animation en boucle */
+}
+
+@keyframes slide-right {
+  0% {
+    left: -100%; /* Départ à gauche */
+  }
+  50% {
+    left: 100%; /* Milieu (complètement à droite) */
+  }
+  100% {
+    left: -100%; /* Retour à gauche */
+  }
+}
+
+@keyframes slide-left {
+  0% {
+    right: -100%; /* Départ à droite */
+  }
+  50% {
+    right: 100%; /* Milieu (complètement à gauche) */
+  }
+  100% {
+    right: -100%; /* Retour à droite */
+  }
 }
 
   .ecran_titre {
