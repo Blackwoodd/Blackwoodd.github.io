@@ -365,7 +365,7 @@ html {
   
   .scrolling-text p {
     animation: scrollText 7s linear infinite;
-    font-size: 26px;
+    font-size: 38px;
   }
   
   @keyframes scrollText {
