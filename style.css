@@ -143,6 +143,7 @@ body {
   border-radius: 35px;
   overflow: scroll;
   position: relative;
+  animation: scroll-down-site 5s linear infinite;
 }
 
 ::-webkit-scrollbar {
@@ -157,7 +158,6 @@ body {
   position: absolute;
   left: 6%;
   top: 114%;
-  animation: scroll-down-site 5s linear infinite;
 }
 
 @keyframes scroll-down-site {
