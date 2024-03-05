@@ -184,13 +184,13 @@ body {
 
 @keyframes slide-up {
   0% {
-    up: -100%;
+    top: -100%;
   }
   50% {
-    up: 25%; /* Arrête au milieu de la page */
+    top: 25%; /* Arrête au milieu de la page */
   }
   100% {
-    up: 25%; /* Reprend le déplacement vers la droite */
+    top: 25%; /* Reprend le déplacement vers la droite */
   }
 }
 
