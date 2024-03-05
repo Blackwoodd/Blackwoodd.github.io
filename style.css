@@ -359,18 +359,24 @@ html {
   .scrolling-text {
     height: 200px; /* Hauteur de la zone de défilement */
     overflow: hidden;
+    display: flex;
+    justify-content: space-around;
   }
   
   .scrolling-text p {
-    animation: scrollText 10s linear infinite; /* Réglage de la vitesse et de la durée de l'animation */
+    animation: scrollText 7s linear infinite;
+    font-size: 26px;
   }
   
   @keyframes scrollText {
     0% {
-      transform: translateY(-100%); /* Démarre au-dessus de la zone visible */
+      transform: translateY(0%); /* Démarre au-dessus de la zone visible */
     }
     100% {
       transform: translateY(100%); /* Se termine sous la zone visible */
+    }
+    200% {
+      transform: translateY(200%);
     }
   }
   
