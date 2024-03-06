@@ -157,7 +157,7 @@ body {
 
 @keyframes slide-right {
   0% {
-    left: -40%;
+    left: -100%;
   }
   20% {
     left: 25%; /* Arrête au milieu de la page */
@@ -166,7 +166,7 @@ body {
     left: 25%;
   }
   100% {
-    left: -40%; /* Reprend le déplacement vers la droite */
+    left: -100%; /* Reprend le déplacement vers la droite */
   }
 }
 
@@ -187,13 +187,16 @@ body {
 
 @keyframes slide-up {
   0% {
-    top: 95%;
+    bottom: -100%;
   }
-  50% {
-    top: 33%; /* Arrête au milieu de la page */
+  20% {
+    bottom: 25%; /* Arrête au milieu de la page */
+  }
+  70% {
+    bottom: 25%;
   }
   100% {
-    top: 95%; /* Reprend le déplacement vers la droite */
+    bottom: -100%; /* Reprend le déplacement vers la droite */
   }
 }
 
