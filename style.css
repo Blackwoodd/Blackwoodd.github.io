@@ -182,21 +182,21 @@ body {
   padding: 10px;
   padding-top: 167px;
   white-space: nowrap;
-  animation: slide-upt 10s linear infinite;
+  animation: slide-up 10s linear infinite;
 }
 
 @keyframes slide-up {
   0% {
-    bottom: -100%;
+    top: -135%;
   }
   20% {
-    bottom: 25%; /* Arrête au milieu de la page */
+    top: 55%;
   }
   70% {
-    bottom: 25%;
+    top: 5%;
   }
   100% {
-    bottom: -100%; /* Reprend le déplacement vers la droite */
+    top: -135%;
   }
 }
 
