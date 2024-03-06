@@ -23,48 +23,40 @@ body {
 }
 
 .contact {
-  font-size: 42px;
-  display: flex;
-  justify-content: center;
-  cursor: pointer;
-  padding: 100px;
-  transition-property: transform;
-  transition-duration: 400ms;
-  position: relative; /* Ajout pour positionner l'élément fils */
-  color: white;
-  text-decoration: none;
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 100px;
+    transition-property: transform;
+    transition-duration: 400ms;
+    &:hover {
+        transform: scale(1.15);
+    }
+    color: white;
+    text-decoration: none;
 
-  &:hover {
-      transform: scale(1.15);
+    &::before,
+  &::after {
+    /* @extend %full-fill; */
+    content: '';
+    z-index: -1;
+    margin: -1 * .05 * 100%;
+    box-shadow: inset 0 0 0 2px; 
+    animation: clipMe 8s linear infinite;
   }
 
-  &::before { /* Ajout du pseudo-élément */
-      content: ''; /* Obligatoire pour que le pseudo-élément soit affiché */
-      position: absolute;
-      width: 100%;
-      height: 2px; /* Épaisseur de la ligne */
-      background-color: white; /* Couleur de la ligne */
-      top: 50%; /* Positionnement vertical au milieu */
-      left: 0; /* Début de la ligne à gauche */
-      transform-origin: right; /* Point d'origine de la rotation */
-      animation: rotateLine 2s linear infinite; /* Animation de rotation */
-      opacity: 0; /* Début avec une opacité de 0 pour qu'elle ne soit pas visible */
-  }
-
-  &:hover::before {
-      opacity: 1; /* Au survol, l'opacité passe à 1 pour que la ligne soit visible */
+  &::before {
+    animation-delay: 8s * -.5;
   }
 }
 
-@keyframes rotateLine {
-  from {
-      transform: rotate(0deg); /* Angle de départ */
-  }
-  to {
-      transform: rotate(360deg); /* Angle de fin */
-  }
+@keyframes clipMe {
+  0%, 100% {clip: rect(0px,(200px * (1 + .05 * 2)), 2px, 0px); }
+  25% {clip: rect(0px, 2px, (200px * (1 + .05 * 2)), 0px); }
+  50% {clip: rect((200px * (1 + .05 * 2)) - 2px, (200px * (1 + .05 * 2)), (200px * (1 + .05 * 2)), 0px); }
+  75% {clip: rect(0px, (200px * (1 + .05 * 2)), (200px * (1 + .05 * 2)), (200px * (1 + .05 * 2)) - 2px); }
 }
-
 
 .titre2 {
     padding: 100px;
