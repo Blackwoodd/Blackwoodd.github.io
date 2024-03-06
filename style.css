@@ -351,19 +351,5 @@ html {
     }
   }
   
-  .container {
-    height: 2000px; /* Hauteur de défilement pour simuler une longue page */
-}
-
-.target {
-    width: 200px;
-    height: 200px;
-    background-color: blue;
-    color: white;
-    text-align: center;
-    line-height: 200px;
-    position: relative;
-    opacity: 0;
-    transition: opacity 1s;
-}
+  
   
