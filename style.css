@@ -187,16 +187,16 @@ body {
 
 @keyframes slide-up {
   0% {
-    top: -135%;
+    top: 100%;
   }
   20% {
     top: 55%;
   }
   70% {
-    top: 5%;
+    top: 55%;
   }
   100% {
-    top: -135%;
+    top: 100%;
   }
 }
 
