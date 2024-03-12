@@ -333,6 +333,7 @@ html {
     padding: 20px;
     display: flex;
     align-items: center;
+    overflow: hidden;
   }
 
   .txt {
@@ -351,5 +352,17 @@ html {
     }
   }
   
-  
+  /*animation pour apparition de cube dans zone_site*/
+  /* #transformation {
+    @include object(60px,60px,#fff);
+    border-radius: 50%;
+    animation: transform 3s ease-in-out infinite alternate;
+    @keyframes transform {
+      100% {
+        width: 150px;
+        border-radius: 4px;
+      }
+    }
+  } */
+
   
