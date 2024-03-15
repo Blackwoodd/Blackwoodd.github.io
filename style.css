@@ -353,12 +353,14 @@ html {
   }
 
   @media all and (max-width: 800px) {
-      .block {
-        padding: 50px;
-        font-size: 20px;
-        align-items: center; /* Aligne les éléments sur l'axe vertical */
-        justify-content: space-around;
-      }
+    .block {
+      padding: 20px; /* Ajustez le padding selon vos besoins */
+      font-size: 27px;
+      display: flex;
+      flex-direction: column; /* Affiche les éléments en colonne */
+      align-items: center; /* Aligne les éléments sur l'axe vertical */
+      justify-content: center; /* Centre les éléments sur l'axe horizontal */
+    }
   }
   
   /*animation pour apparition de cube dans zone_site*/
