@@ -356,12 +356,22 @@ html {
       justify-content: center; /* Centre les éléments sur l'axe horizontal */
     }
 
+    .image_html {
+      display: inline-block;
+      padding-right: 50px;
+    }
+
+    .image_css {
+      display: inline-block;
+      padding-right: 100px;
+    }
+
     .image_html img {
       width: 100px;
       height: auto;
     }
     .image_css img {
-      width: 40px;
+      width: 60px;
       height: auto;
     }
     .image_js img {
