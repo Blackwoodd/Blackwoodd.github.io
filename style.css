@@ -355,6 +355,19 @@ html {
       align-items: center; /* Aligne les éléments sur l'axe vertical */
       justify-content: center; /* Centre les éléments sur l'axe horizontal */
     }
+
+    .image_html img {
+      width: 100px;
+      height: auto;
+    }
+    .image_css img {
+      width: 40px;
+      height: auto;
+    }
+    .image_js img {
+      width: 60px;
+      height: auto;
+    }
   }
   
   /*animation pour apparition de cube dans zone_site*/
