@@ -358,12 +358,12 @@ html {
 
     .image_html {
       display: inline-block;
-      padding-right: 50px;
+      padding-right: 20px;
     }
 
     .image_css {
       display: inline-block;
-      padding-right: 100px;
+      padding-right: 20px;
     }
 
     .image_html img {
@@ -371,12 +371,17 @@ html {
       height: auto;
     }
     .image_css img {
-      width: 60px;
+      width: 70px;
       height: auto;
     }
     .image_js img {
       width: 60px;
       height: auto;
+    }
+
+    .info_plus {
+      padding: 30px;
+      font-size: 14px;
     }
   }
   
