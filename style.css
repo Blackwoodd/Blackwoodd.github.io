@@ -352,9 +352,9 @@ html {
     }
   }
 
-  @media all and (max-width: 800px) {
+  @media all and (max-width: 1000px) {
     .block {
-      padding: 20px; /* Ajustez le padding selon vos besoins */
+      padding: 50px; /* Ajustez le padding selon vos besoins */
       font-size: 27px;
       display: flex;
       flex-direction: column; /* Affiche les éléments en colonne */
