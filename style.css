@@ -63,7 +63,6 @@ body {
   width: 281px;
   background-color: rgb(50, 49, 49);
   border-radius: 35px;
-  transform: translateX(-45px);
 }
 
 .iphone {
@@ -212,11 +211,6 @@ body {
 
 .text_block {
   width: 500px;
-}
-
-.text_block_app {
-  width: 500px;
-  transform: translateX(-45px);
 }
 
 html {
