@@ -18,6 +18,10 @@ body {
     justify-content: space-around;
 }
 
+.video {
+  border-radius: 20;
+}
+
 .block p {
     max-width: 700;
 }
