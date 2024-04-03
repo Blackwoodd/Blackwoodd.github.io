@@ -318,6 +318,19 @@ html {
       animation: Scroll-text 35s linear infinite;
     }
 
+    .image_app {
+      width: 200px;
+      height: auto;
+      margin-left: auto;
+      border-radius: 10px;
+  }
+
+  .image_figma img {
+    width: 100px;
+    height: auto;
+    border-radius: 30px;
+  }
+
     .image_html {
       display: inline-block;
       padding-right: 20px;
@@ -345,7 +358,21 @@ html {
       padding: 30px;
       font-size: 14px;
     }
-
+    
+    .contact {
+      font-size: 32px;
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+      padding: 100px;
+      transition-property: transform;
+      transition-duration: 400ms;
+      &:hover {
+          transform: scale(1.15);
+      }
+      color: white;
+      text-decoration: none;
+  }
 
   }
   
