@@ -292,6 +292,32 @@ html {
       justify-content: center; /* Centre les éléments sur l'axe horizontal */
     }
 
+    .titre {
+      padding: 50px;
+      font-size: 42px;
+    }
+
+    .titre2 {
+      padding: 50px;
+      font-size: 26px;
+    }
+
+    .scrolling-text {
+      height: 5vh;
+      width: 100%;
+      background: rgb(63, 44, 97);
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .txt {
+      white-space: nowrap;
+      font-size: 35px;
+      animation: Scroll-text 35s linear infinite;
+    }
+
     .image_html {
       display: inline-block;
       padding-right: 20px;
@@ -319,6 +345,8 @@ html {
       padding: 30px;
       font-size: 14px;
     }
+
+
   }
   
   /*animation pour apparition de cube dans zone_site*/
