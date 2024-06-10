@@ -46,7 +46,7 @@ window.onload = () => {
     },
     currentPos: 0,
     changeText: function() {
-        var words = ['WELCOME', 'BIENVENUE', 'ようこそ', 'BIENVENIDO'],
+        var words = ['WELCOME', 'BIENVENUE', 'ようこそ', 'BIENVENIDO', 'مرحباً بكم', '欢迎'],
             word = words[particleAlphabet.currentPos];
         particleAlphabet.time = word;
         particleAlphabet.currentPos++;
