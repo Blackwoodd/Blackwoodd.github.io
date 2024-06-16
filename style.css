@@ -61,10 +61,10 @@ section h1 {
         background-color: #222d41;
         display: flex;
         width: 100%;
-        gap: 20px;
+        /* gap: 20px; */
         font-size: 36px;
-        font-weight: 400;
-        padding: 62px 51px;
+        /* font-weight: 400; */
+        /* padding: 62px 51px; */
       }
       @media (max-width: 991px) {
         .div-2 {
