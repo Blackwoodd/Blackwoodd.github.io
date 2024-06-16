@@ -9,33 +9,291 @@
     <link href='https://fonts.googleapis.com/css?family=Noto+Serif:800,800italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    <nav class="navbar">
+    <!-- <nav class="navbar">
       <ul>
           <li><a href="#home">Accueil</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#about">À propos</a></li>
           <li><a href="#contact">Contact</a></li>
       </ul>
-  </nav>
-    <canvas></canvas>
-    <h1>TETS CANVA</h1>
-    <div class="content">
-      <section id="home">
-          <h1>Accueil</h1>
-          <p>Bienvenue sur notre site web !</p>
-      </section>
-      <section id="services">
-          <h1>Services</h1>
-          <p>Voici nos services...</p>
-      </section>
-      <section id="about">
-          <h1>À propos</h1>
-          <p>En savoir plus sur nous...</p>
-      </section>
-      <section id="contact">
-          <h1>Contact</h1>
-          <p>Contactez-nous...</p>
-      </section>
-  </div>
+  </nav> -->
+    <!-- <canvas></canvas> -->
+    <div class="flex flex-col bg-white rounded-3xl">
+      <div
+        class="flex gap-5 px-12 py-16 w-full text-4xl bg-slate-800 max-md:flex-wrap max-md:px-5 max-md:max-w-full"
+      >
+        <div class="flex-auto text-red-400">
+          Port
+          <span class="text-red-400">Folio</span>
+        </div>
+        <div
+          class="flex gap-5 text-white whitespace-nowrap max-md:flex-wrap max-md:max-w-full"
+        >
+          <div class="flex-auto">Acceuil</div>
+          <div class="flex-auto text-white">Services</div>
+          <div class="flex-auto">Contact</div>
+        </div>
+      </div>
+      <img
+        loading="lazy"
+        srcset="..."
+        class="z-10 -mt-6 w-full aspect-[5.26] max-md:max-w-full"
+      />
+      <div
+        class="flex justify-center items-center px-16 py-20 w-full bg-slate-700 max-md:px-5 max-md:max-w-full"
+      >
+        <div
+          class="flex gap-5 justify-between mt-5 w-full max-w-[1054px] max-md:flex-wrap max-md:max-w-full"
+        >
+          <div class="flex flex-col self-end mt-9 max-md:max-w-full">
+            <div class="text-4xl text-white max-md:max-w-full">Hello ,</div>
+            <div class="mt-3 text-4xl text-white max-md:max-w-full">
+              My name is Nathan,
+            </div>
+            <div class="flex gap-5 mt-3 text-4xl max-md:flex-wrap">
+              <div class="text-white">I’am</div>
+              <div class="flex-auto text-red-400 max-md:max-w-full">
+                Front end Developer
+              </div>
+            </div>
+            <div class="mt-12 text-xl text-red-400 max-md:mt-10 max-md:max-w-full">
+              Currently based in Paris, I like working on my computer to
+              <span class="text-red-400">develop new projects</span>
+            </div>
+            <div class="flex gap-2.5 self-start mt-7">
+              <img
+                loading="lazy"
+                srcset="..."
+                class="shrink-0 w-14 h-14 rounded-full border border-white border-solid aspect-square bg-zinc-300 bg-opacity-0 stroke-[1px]"
+              />
+              <div
+                class="shrink-0 w-14 h-14 rounded-full border border-white border-solid bg-zinc-300 bg-opacity-0 stroke-[1px]"
+              ></div>
+              <img
+                loading="lazy"
+                srcset="..."
+                class="shrink-0 w-14 h-14 rounded-full border border-white border-solid aspect-square bg-zinc-300 bg-opacity-0 stroke-[1px]"
+              />
+            </div>
+          </div>
+          <div class="flex flex-col items-start pb-9 rounded-3xl bg-stone-500">
+            <img
+              loading="lazy"
+              srcset="..."
+              class="z-10 mt-0 w-full aspect-[0.66]"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex justify-center items-center px-16 py-20 w-full text-white bg-slate-800 max-md:px-5 max-md:max-w-full"
+      >
+        <div
+          class="flex gap-5 justify-between mt-5 mb-7 w-full max-w-[1110px] max-md:flex-wrap max-md:max-w-full"
+        >
+          <div class="flex flex-col my-auto max-md:max-w-full">
+            <div class="text-4xl max-md:max-w-full">
+              <span class="text-red-400">Skills</span>
+              and tools
+            </div>
+            <div class="mt-6 text-xl max-md:max-w-full">
+              Here is a mix of my skills and the tools that I use for my different
+              professional or other projects
+            </div>
+          </div>
+          <div class="flex flex-col whitespace-nowrap">
+            <div class="flex gap-5 justify-between self-center">
+              <div class="flex flex-col">
+                <div class="text-xl">JavaScript</div>
+                <div class="self-center mt-4 text-xs">Django</div>
+              </div>
+              <div class="self-start text-xs">HTML</div>
+              <div class="my-auto text-xl">Django</div>
+            </div>
+            <div class="flex gap-1">
+              <div class="flex flex-col grow shrink-0 basis-0 w-fit">
+                <div class="flex gap-5 justify-between items-start text-xs">
+                  <div class="flex flex-col mt-2.5">
+                    <div>C++</div>
+                    <div class="self-end mt-2.5">CSS</div>
+                  </div>
+                  <div class="self-stretch my-auto text-xl">C</div>
+                  <div>Figma</div>
+                  <div>VisualStudio</div>
+                </div>
+                <div
+                  class="flex gap-5 justify-between items-start mt-2 w-full max-md:pr-5"
+                >
+                  <div class="self-end mt-6 text-xs">JavaScript</div>
+                  <div class="flex gap-5 self-start">
+                    <div class="text-3xl">Figma</div>
+                    <div class="my-auto text-xs">Xcode</div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col self-start">
+                <div class="self-center text-xl">C++</div>
+                <div class="mt-3 text-3xl">SwiftUI</div>
+              </div>
+            </div>
+            <div
+              class="flex gap-5 justify-between self-center max-w-full w-[215px]"
+            >
+              <div class="text-xl">CSS</div>
+              <div class="flex gap-5 justify-between self-start text-xs">
+                <div>SwiftUI</div>
+                <div>SQL</div>
+              </div>
+            </div>
+            <div class="flex gap-5 items-start max-md:pr-5">
+              <div class="self-stretch my-auto text-2xl">VisualStudio</div>
+              <div class="flex flex-col mt-1">
+                <div class="text-base">HTML</div>
+                <div class="mt-3.5 text-xl">SQL</div>
+              </div>
+              <div class="flex flex-col">
+                <div class="text-xl">Xcode</div>
+                <div class="text-xs">C</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="z-10 w-full bg-black max-md:max-w-full">
+        <div class="flex gap-5 max-md:flex-col max-md:gap-0">
+          <div class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+            <img
+              loading="lazy"
+              srcset="..."
+              class="self-stretch my-auto w-full aspect-[0.84] max-md:mt-0 max-md:max-w-full"
+            />
+          </div>
+          <div class="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+            <div class="flex flex-col mt-3 max-md:max-w-full">
+              <div
+                class="flex justify-center items-center px-16 py-10 bg-black max-md:px-5 max-md:max-w-full"
+              >
+                <div class="flex flex-col ml-14 max-w-full w-[444px]">
+                  <div class="text-4xl text-red-400 max-md:max-w-full">
+                    Reasonable and flexible prices for clients
+                  </div>
+                  <div class="mt-5 text-xl text-white max-md:max-w-full">
+                    Together we can think about a correct price that reflects the
+                    work requested.
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex flex-col justify-center items-end px-16 py-11 mt-1.5 bg-black max-md:px-5 max-md:max-w-full"
+              >
+                <div class="flex flex-col mr-16 max-w-full w-[480px] max-md:mr-2.5">
+                  <div class="text-4xl text-red-400 max-md:max-w-full">
+                    Elaborating ideas in the discutin
+                  </div>
+                  <div class="mt-6 text-xl text-white max-md:max-w-full">
+                    Discussing together will be the best way to create an
+                    application that suits you.
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex justify-center items-center px-16 py-12 bg-black max-md:px-5 max-md:max-w-full"
+              >
+                <div class="flex flex-col max-w-full w-[422px]">
+                  <div class="text-4xl text-red-400 max-md:max-w-full">
+                    The only limit will be yourself
+                  </div>
+                  <div class="mt-5 text-xl text-white max-md:max-w-full">
+                    Animations, design, links and any other ideas you have can be
+                    thought about and created for you and your project.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-center pt-7 pr-4 pb-16 pl-20 w-full bg-slate-800 max-md:pl-5 max-md:max-w-full"
+      >
+        <div class="w-full max-w-[1232px] max-md:max-w-full">
+          <div class="flex gap-5 max-md:flex-col max-md:gap-0">
+            <div class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+              <div
+                class="mt-16 text-5xl text-red-400 max-md:mt-10 max-md:max-w-full max-md:text-4xl"
+              >
+                Take a look at what I’ve
+                <span class="text-red-400">created</span>
+                and be
+                <span class="text-red-400">inspired</span>
+                by it
+              </div>
+            </div>
+            <div class="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+              <div class="grow max-md:mt-10 max-md:max-w-full">
+                <div class="flex gap-5 max-md:flex-col max-md:gap-0">
+                  <div class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+                    <img
+                      loading="lazy"
+                      srcset="..."
+                      class="grow w-full aspect-square max-md:mt-10"
+                    />
+                  </div>
+                  <div class="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+                    <img
+                      loading="lazy"
+                      srcset="..."
+                      class="grow w-full aspect-[1.16] max-md:mt-10"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex gap-5 justify-between mt-5 w-full text-3xl text-white max-w-[1150px] max-md:flex-wrap max-md:max-w-full"
+        >
+          <div
+            class="justify-center items-center self-end px-16 py-10 mt-9 rounded-xl border-red-400 border-solid bg-zinc-300 bg-opacity-0 border-[3px] max-md:px-5"
+          >
+            See more
+          </div>
+          <img
+            loading="lazy"
+            srcset="..."
+            class="w-full aspect-[2.38]"
+          />
+        </div>
+      </div>
+      <div
+        class="flex justify-center items-center px-16 py-20 w-full bg-slate-700 max-md:px-5 max-md:max-w-full"
+      >
+        <div
+          class="flex flex-col mt-32 mb-12 w-full max-w-[1097px] max-md:my-10 max-md:max-w-full"
+        >
+          <div
+            class="flex-auto gap-5 text-6xl text-red-400 max-md:flex-wrap max-md:max-w-full max-md:text-4xl"
+          >
+            <span class="font-bold">Let’s talk about</span>
+            <span class="font-bold text-red-400">your project</span>
+          </div>
+          <div
+            class="flex relative flex-col mt-4 max-w-full border border-red-400 border-solid stroke-[1px] stroke-red-400 w-[386px]"
+          >
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/42be5000fce1eeaab2ae2363415a0fe6262471f603c36ceef45321f7d4da9679?"
+              class="absolute inset-0 size-full"
+            />
+            <div
+              class="relative justify-center items-center self-start px-16 py-10 mt-2.5 text-3xl text-white rounded-xl border-red-400 border-solid bg-zinc-300 bg-opacity-0 border-[3px] max-md:px-5"
+            >
+              Contact me
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 </body>
 </html>
