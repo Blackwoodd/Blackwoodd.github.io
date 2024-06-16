@@ -64,7 +64,7 @@ section h1 {
         /* gap: 20px; */
         font-size: 36px;
         /* font-weight: 400; */
-        /* padding: 62px 51px; */
+        padding: 62px 51px;
       }
       @media (max-width: 991px) {
         .div-2 {
@@ -139,7 +139,7 @@ section h1 {
         display: flex;
         margin-top: 19px;
         width: 100%;
-        max-width: 1054px;
+        /* max-width: 1054px; */
         gap: 20px;
         justify-content: space-between;
       }
