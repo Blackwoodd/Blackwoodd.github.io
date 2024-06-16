@@ -36,3 +36,17 @@ body {
 .navbar a:hover {
   text-decoration: underline;
 }
+
+.content {
+  margin-top: 60px; /* Ajustez cette valeur en fonction de la hauteur de votre navbar */
+  padding: 20px;
+}
+
+section {
+  padding: 50px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+section h1 {
+  margin-top: 0;
+}
