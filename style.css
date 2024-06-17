@@ -64,8 +64,8 @@ section h1 {
         z-index: 1000;
         background-color: #222d41;
         display: flex;
-        /* width: 100%; */
-        /* gap: 20px; */
+        width: 100%;
+        gap: 20px;
         font-size: 26px;
         /* font-weight: 400; */
         padding: 25px 10px;
