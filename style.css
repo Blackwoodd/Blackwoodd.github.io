@@ -607,8 +607,7 @@ body {
   }
   .div-66 {
     display: flex;
-    margin-left: 57px;
-    width: 444px;
+    
     max-width: 100%;
     flex-direction: column;
   }
@@ -649,7 +648,6 @@ body {
   .div-70 {
     display: flex;
     margin-right: 66px;
-    width: 480px;
     max-width: 100%;
     flex-direction: column;
   }
@@ -692,7 +690,7 @@ body {
   }
   .div-74 {
     display: flex;
-    width: 422px;
+    
     max-width: 100%;
     flex-direction: column;
   }
