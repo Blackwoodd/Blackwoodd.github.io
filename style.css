@@ -67,3 +67,303 @@ body {
   padding: 300px;
   font-size: 40px;
 }
+
+/* /////////////// SECTION OUTILS /////////////////////// */
+
+.div-20 {
+  background-color: #222d41;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  color: #fff;
+  font-weight: 400;
+  justify-content: center;
+  padding: 80px 60px;
+}
+@media (max-width: 991px) {
+  .div-20 {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+.div-21 {
+  display: flex;
+  width: 100%;
+  max-width: 1110px;
+  gap: 20px;
+  justify-content: space-between;
+  margin: 20px 0 28px;
+}
+@media (max-width: 991px) {
+  .div-21 {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+}
+.div-22 {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+}
+@media (max-width: 991px) {
+  .div-22 {
+    max-width: 100%;
+  }
+}
+.div-23 {
+  font: 40px Inter, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-23 {
+    max-width: 100%;
+  }
+}
+.div-24 {
+  margin-top: 25px;
+  font: 20px Inter, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-24 {
+    max-width: 100%;
+  }
+}
+.div-25 {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+}
+@media (max-width: 991px) {
+  .div-25 {
+    white-space: initial;
+  }
+}
+.div-26 {
+  align-self: center;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+@media (max-width: 991px) {
+  .div-26 {
+    white-space: initial;
+  }
+}
+.div-27 {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
+  .div-27 {
+    white-space: initial;
+  }
+}
+.div-28 {
+  font: 20px Inter, sans-serif;
+}
+.div-29 {
+  align-self: center;
+  margin-top: 15px;
+  font: 10px Inter, sans-serif;
+}
+.div-30 {
+  align-self: start;
+  font: 10px Inter, sans-serif;
+}
+.div-31 {
+  margin: auto 0;
+  font: 20px Inter, sans-serif;
+}
+.div-32 {
+  display: flex;
+  gap: 3px;
+}
+@media (max-width: 991px) {
+  .div-32 {
+    white-space: initial;
+  }
+}
+.div-33 {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 0;
+  width: fit-content;
+}
+@media (max-width: 991px) {
+  .div-33 {
+    white-space: initial;
+  }
+}
+.div-34 {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+  font-size: 10px;
+  justify-content: space-between;
+}
+@media (max-width: 991px) {
+  .div-34 {
+    white-space: initial;
+  }
+}
+.div-35 {
+  display: flex;
+  margin-top: 9px;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
+  .div-35 {
+    white-space: initial;
+  }
+}
+.div-36 {
+  font-family: Inter, sans-serif;
+}
+.div-37 {
+  font-family: Inter, sans-serif;
+  align-self: end;
+  margin-top: 10px;
+}
+.div-38 {
+  align-self: stretch;
+  margin: auto 0;
+  font: 20px Inter, sans-serif;
+}
+.div-39 {
+  font-family: Inter, sans-serif;
+}
+.div-40 {
+  font-family: Inter, sans-serif;
+}
+.div-41 {
+  display: flex;
+  margin-top: 7px;
+  width: 100%;
+  align-items: flex-start;
+  gap: 20px;
+  justify-content: space-between;
+}
+@media (max-width: 991px) {
+  .div-41 {
+    padding-right: 20px;
+    white-space: initial;
+  }
+}
+.div-42 {
+  align-self: end;
+  margin-top: 24px;
+  font: 10px Inter, sans-serif;
+}
+.div-43 {
+  align-self: start;
+  display: flex;
+  gap: 18px;
+}
+@media (max-width: 991px) {
+  .div-43 {
+    white-space: initial;
+  }
+}
+.div-44 {
+  font: 32px Inter, sans-serif;
+}
+.div-45 {
+  margin: auto 0;
+  font: 10px Inter, sans-serif;
+}
+.div-46 {
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
+  .div-46 {
+    white-space: initial;
+  }
+}
+.div-47 {
+  align-self: center;
+  font: 20px Inter, sans-serif;
+}
+.div-48 {
+  margin-top: 11px;
+  font: 32px Inter, sans-serif;
+}
+.div-49 {
+  align-self: center;
+  display: flex;
+  width: 215px;
+  max-width: 100%;
+  gap: 20px;
+  justify-content: space-between;
+}
+@media (max-width: 991px) {
+  .div-49 {
+    white-space: initial;
+  }
+}
+.div-50 {
+  font: 20px Inter, sans-serif;
+}
+.div-51 {
+  align-self: start;
+  display: flex;
+  gap: 20px;
+  font-size: 10px;
+  justify-content: space-between;
+}
+@media (max-width: 991px) {
+  .div-51 {
+    white-space: initial;
+  }
+}
+.div-52 {
+  font-family: Inter, sans-serif;
+}
+.div-53 {
+  font-family: Inter, sans-serif;
+}
+.div-54 {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}
+@media (max-width: 991px) {
+  .div-54 {
+    padding-right: 20px;
+    white-space: initial;
+  }
+}
+.div-55 {
+  align-self: stretch;
+  margin: auto 0;
+  font: 24px Inter, sans-serif;
+}
+.div-56 {
+  display: flex;
+  margin-top: 4px;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
+  .div-56 {
+    white-space: initial;
+  }
+}
+.div-57 {
+  font: 16px Inter, sans-serif;
+}
+.div-58 {
+  margin-top: 14px;
+  font: 20px Inter, sans-serif;
+}
+.div-59 {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
+  .div-59 {
+    white-space: initial;
+  }
+}
+
+/* ////////////////////////////////// */
