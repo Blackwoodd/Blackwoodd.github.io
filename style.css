@@ -751,7 +751,7 @@ body {
     }
   }
   .div-80 {
-    color: #d76c58;
+    color: white;
     margin-top: 67px;
     font: 400 48px Inter, sans-serif;
   }
@@ -819,7 +819,7 @@ body {
     }
   }
   .img-7 {
-    aspect-ratio: 1.16;
+    aspect-ratio: 0.96;
     object-fit: auto;
     object-position: center;
     width: 100%;
@@ -867,10 +867,10 @@ body {
     }
   }
   .img-8 {
-    aspect-ratio: 2.38;
+    aspect-ratio: 5;
     object-fit: auto;
     object-position: center;
-    width: 100%;
+    width: 50%;
   }
     /* ////////////////////////////////////////// */
   /* ////////////////// SECTION CONTACT //////////////////////// */
