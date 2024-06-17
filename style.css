@@ -13,12 +13,11 @@ body {
   }
   /* ////////////////// BARRE NAV //////////////////////// */
 
-  .div-2 {
+  .nav-barre {
     background-color: #222d41;
     display: flex;
     width: 100%;
     gap: 20px;
-    font-size: 36px;
     font-weight: 400;
     padding: 62px 51px;
     box-sizing: border-box;
@@ -27,58 +26,28 @@ body {
     z-index: 1000;
   }
   @media (max-width: 991px) {
-    .div-2 {
+    .nav-barre {
       max-width: 100%;
       flex-wrap: wrap;
       padding: 0 20px;
     }
   }
-  .div-3 {
-    color: #d76c58;
-    font-family: Inter, sans-serif;
+  .TitleNav {
     flex-grow: 1;
     flex-basis: auto;
+    font-size: 26px;
   }
-  .div-4 {
+  .ContentNav {
     display: flex;
     gap: 20px;
     color: #fff;
     white-space: nowrap;
   }
   @media (max-width: 991px) {
-    .div-4 {
+    .ContentNav {
       max-width: 100%;
       flex-wrap: wrap;
       white-space: initial;
-    }
-  }
-  .div-5 {
-    font-family: Inter, sans-serif;
-    flex-grow: 1;
-    flex-basis: auto;
-  }
-  .div-6 {
-    color: #fffcfc;
-    font-family: Inter, sans-serif;
-    flex-grow: 1;
-    flex-basis: auto;
-  }
-  .div-7 {
-    font-family: Inter, sans-serif;
-    flex-grow: 1;
-    flex-basis: auto;
-  }
-  .img {
-    aspect-ratio: 5.26;
-    object-fit: auto;
-    object-position: center;
-    width: 100%;
-    z-index: 10;
-    margin-top: -24px;
-  }
-  @media (max-width: 991px) {
-    .img {
-      max-width: 100%;
     }
   }
   /* ////////////////////////////////////////// */
