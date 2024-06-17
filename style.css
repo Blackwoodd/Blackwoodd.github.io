@@ -58,17 +58,14 @@ section h1 {
         flex-direction: column;
       } */
       .barre-nav {
+        background-color: #222d41;
         position: fixed;
         top: 0;
-        color: white;
-        z-index: 1000;
-        background-color: #222d41;
-        display: flex;
         width: 100%;
-        gap: 20px;
-        font-size: 26px;
-        /* font-weight: 400; */
-        padding: 25px 10px;
+        background-color: #333;
+        color: white;
+        padding: 20px 0;
+        z-index: 1000;
       }
       @media (max-width: 991px) {
         .barre-nav {
