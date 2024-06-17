@@ -81,6 +81,7 @@ section h1 {
         display: flex;
         gap: 20px;
         color: #fff;
+        justify-content: end;
         white-space: nowrap;
       }
       @media (max-width: 991px) {
