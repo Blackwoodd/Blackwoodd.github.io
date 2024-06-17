@@ -11,6 +11,8 @@ body {
     display: flex;
     flex-direction: column;
   }
+  /* ////////////////// BARRE NAV //////////////////////// */
+
   .div-2 {
     background-color: #222d41;
     display: flex;
@@ -19,6 +21,9 @@ body {
     font-size: 36px;
     font-weight: 400;
     padding: 62px 51px;
+    box-sizing: border-box;
+    top: 0;
+    position: fixed;
   }
   @media (max-width: 991px) {
     .div-2 {
@@ -75,6 +80,8 @@ body {
       max-width: 100%;
     }
   }
+  /* ////////////////////////////////////////// */
+  /* ////////////////// SECTION PRESENTATION //////////////////////// */
   .div-8 {
     background-color: #374158;
     display: flex;
@@ -229,6 +236,9 @@ body {
     z-index: 10;
     margin-top: -35px;
   }
+  /* ////////////////////////////////////////// */
+  /* ////////////////// SECTION SKILLS //////////////////////// */
+
   .div-20 {
     background-color: #222d41;
     display: flex;
@@ -524,6 +534,9 @@ body {
       white-space: initial;
     }
   }
+  /* ////////////////////////////////////////// */
+  /* ////////////////// SECTION SERVICE //////////////////////// */
+
   .div-60 {
     font: 20px Inter, sans-serif;
   }
@@ -723,6 +736,9 @@ body {
       max-width: 100%;
     }
   }
+  /* ////////////////////////////////////////// */
+  /* ////////////////// SECTION PHOTO //////////////////////// */
+
   .div-77 {
     background-color: #222d41;
     display: flex;
@@ -854,6 +870,7 @@ body {
       flex-wrap: wrap;
     }
   }
+
   .div-84 {
     font-family: Inter, sans-serif;
     border-radius: 10px;
@@ -878,6 +895,8 @@ body {
     object-position: center;
     width: 100%;
   }
+    /* ////////////////////////////////////////// */
+  /* ////////////////// SECTION CONTACT //////////////////////// */
   .div-85 {
     background-color: rgba(55, 65, 88, 1);
     display: flex;
@@ -959,3 +978,4 @@ body {
     margin-top: 15px;
     max-width: 100%;
   }
+    /* ////////////////////////////////////////// */
