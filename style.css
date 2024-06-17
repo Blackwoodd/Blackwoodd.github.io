@@ -74,17 +74,15 @@ section h1 {
         }
       } */
       .div-3 {
-        color: #d76c58;
-        font-family: Inter, sans-serif;
-        flex-grow: 1;
-        flex-basis: auto;
+        display: flex;
+        white-space: nowrap;
       }
-      .div-4 {
+      /* .div-4 {
         display: flex;
         gap: 20px;
         color: #fff;
         white-space: nowrap;
-      }
+      } */
       @media (max-width: 991px) {
         .div-4 {
           max-width: 100%;
