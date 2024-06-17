@@ -18,8 +18,7 @@ body {
     display: flex;
     width: 100%;
     gap: 20px;
-    font-weight: 400;
-    padding: 62px 51px;
+    padding: 22px 51px;
     box-sizing: border-box;
     top: 0;
     position: fixed;
@@ -36,7 +35,17 @@ body {
     flex-grow: 1;
     flex-basis: auto;
     font-size: 26px;
+    
   }
+
+.TitleNav .port {
+  color: white;
+}
+
+.TitleNav .folio {
+  color: rgba(215, 108, 88, 1);
+}
+
   .ContentNav {
     display: flex;
     gap: 20px;
