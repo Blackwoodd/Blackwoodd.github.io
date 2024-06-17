@@ -45,7 +45,6 @@ body {
   padding: 300px;
   margin-top: 40px;
   font-size: 40px;
-  
 }
 
 .TextPresentation p,
@@ -62,4 +61,9 @@ body {
   color: #D76C58;
   font-weight: bold;
 }
-    
+  
+.SectionOutils {
+  background: #374158;
+  padding: 300px;
+  font-size: 40px;
+}
