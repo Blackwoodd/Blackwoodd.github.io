@@ -24,6 +24,7 @@ body {
     box-sizing: border-box;
     top: 0;
     position: fixed;
+    z-index: 1000;
   }
   @media (max-width: 991px) {
     .div-2 {
