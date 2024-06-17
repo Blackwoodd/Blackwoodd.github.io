@@ -67,7 +67,7 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
-    padding: 76px 60px;
+    padding: 100px 60px;
   }
   @media (max-width: 991px) {
     .div-8 {
