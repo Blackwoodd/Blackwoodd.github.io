@@ -59,12 +59,13 @@ section h1 {
       } */
       .barre-nav {
         background-color: #222d41;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        color: white;
-        padding: 20px 0;
-        z-index: 1000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: white;
+    padding: 20px 20px;
+    z-index: 1000;
+    box-sizing: border-box;
       }
       @media (max-width: 991px) {
         .barre-nav {
@@ -75,14 +76,11 @@ section h1 {
       }
       .div-3 {
         display: flex;
-        /* white-space: nowrap; */
       }
       .div-4 {
         display: flex;
         gap: 20px;
         color: #fff;
-        justify-content: end;
-        white-space: nowrap;
       }
       @media (max-width: 991px) {
         .div-4 {
@@ -267,7 +265,7 @@ section h1 {
         align-items: start;
       }
       .img-4 {
-        aspect-ratio: 0.66;
+        aspect-ratio: 0.80;
         object-fit: auto;
         object-position: center;
         width: 100%;
